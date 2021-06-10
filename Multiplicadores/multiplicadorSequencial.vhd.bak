@@ -1,0 +1,161 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+-- Vou deixar comentado o codigo de 8 bits e deixar o de 3 pra testar ai quando for entregar so apagar o de 3 bits
+
+entity multiplicadorSequencial is
+	generic(TAMANHO: integer:= 3); -- Mudar pra 8
+	port(
+	op1, op2: in std_logic_vector(2 downto 0);
+	clock, enable, reset: in std_logic;
+	resultado: out std_logic_vector(5 downto 0);
+	saidaMux, saidadaULA, entrada2ULA, entrada1ULA: out std_logic_vector(2 downto 0)
+--	op1, op2: in std_logic_vector(7 downto 0);
+--	resultado: out std_logic_vector(15 downto 0)
+	);
+end entity;
+
+architecture multiplicadorSequencialArch of multiplicadorSequencial is
+component somadorNbits is 
+	generic(TAMANHO: integer:= 3); -- Mudar para 8
+	port (
+		entrada1, entrada2: in std_logic_vector(TAMANHO-1 downto 0);
+		resultadoSoma: out std_logic_vector(TAMANHO-1 downto 0);
+		overflow: out std_logic
+	);
+end component;
+
+component mux is 
+	generic(TAMANHO: integer:= 3); -- Mudar para 8
+	port (
+		entrada1, entrada0 : in std_logic_vector(TAMANHO-1 downto 0);
+		control: in std_logic;
+		saida: out std_logic_vector(TAMANHO -1 downto 0)  
+	);
+end component;
+
+component registrador is
+	port (
+		d: in std_logic_vector (5 downto 0);
+		reset, clock, enable : in std_logic;
+		q: out std_logic_vector (5 downto 0)
+	);
+	
+END component;
+
+component registradorShift is
+	generic (TAMANHO: integer :=3);
+	port (
+		d: in std_logic_vector (TAMANHO - 1 downto 0);
+		reset, clock, enable, ativaShift : in std_logic;
+		q: out std_logic_vector (TAMANHO - 1 downto 0)	);
+end component;
+--signal a, b: std_logic_vector(7 downto 0);
+signal a, aSaida, b, bSaida, saidaDoMux, saidaULA: std_logic_vector(2 downto 0);
+signal entradaRegitrador, saidaRegistrador : std_logic_vector(5 downto 0);
+signal overflow, ativaShift: std_logic;
+signal c: integer;
+-- maquina de estados
+signal atual, prox : std_logic_vector(1 downto 0);
+constant s0 : std_logic_vector(1 downto 0) := "00";
+constant s1 : std_logic_vector(1 downto 0) := "01";
+constant s2 : std_logic_vector(1 downto 0) := "10";
+constant s3 : std_logic_vector(1 downto 0) := "11";
+
+begin
+--ativaShift <= '1';
+--a <= op1(7 downto 0);
+--b <= op2(7 downto 0);
+--a <= op1(2 downto 0);
+--b <= op2(2 downto 0);
+
+
+--entradaRegitrador <= "000000";
+
+--MR: registradorShift port map(
+	--	d(2 downto 0)  => a,
+		--reset => reset,
+		--clock => clock,
+		--enable => enable,
+		--ativaShift => ativaShift,
+		--q(2 downto 0) => asaida
+	--);
+
+MR: registrador port map(
+		d (2 downto 0) => a,
+		reset => reset,
+		clock => clock,
+		enable => enable,
+		q => aSaida
+	);
+	
+MD: registrador port map(
+		d (2 downto 0)  => b,
+		reset => reset,
+		clock => clock,
+		enable => enable,
+		q => bSaida
+	);
+	
+PR: registrador port map(
+		d  => entradaRegitrador,
+		reset => reset,
+		clock => clock,
+		enable => enable,
+		q => saidaRegistrador
+	);
+	
+	mux1: mux port map(
+		entrada0 => "000",
+		entrada1 => b,
+		control=> a(0),
+		saida=> saidaDoMux  
+	);
+					
+		Somador: somadorNbits port map(
+			entrada1 => saidaDoMux,
+			entrada2 =>  saidaRegistrador(5 downto 3),
+			resultadoSoma => saidaULA,
+			overflow=> overflow
+		);
+	
+	
+	-- clock para mudanca de estado
+	process(clock,reset)
+	begin
+		if reset = '0' then
+			atual <= s0;
+		elsif clock'event and clock = '1' then
+		      atual <= prox;
+		end if;
+	end process;
+
+	-- maquina de estados 
+	process (enable, atual, prox)
+	begin
+		case atual is
+			when s0 => 
+				if enable = '1' then 
+					a <= op1;
+					b <= op2;
+					prox <= s1;		
+				end if;
+			when s1 =>
+				entradaRegitrador <= overflow & saidaULA & saidaRegistrador(2 downto 1);--deslocamento
+				prox <= s2;
+			when s2 =>
+				entradaRegitrador <= overflow & saidaULA & saidaRegistrador(2 downto 1);--deslocamento
+				prox <= s3;
+			when s3 =>
+				entradaRegitrador <= overflow & saidaULA & saidaRegistrador(2 downto 1);--deslocamento
+				prox <= s0;
+		end case;
+	end process;
+	--		saidaDoMux <= saidaDoMux;
+		--	saidaULA <= saidaUla;
+		-- entrada1ULA <= a;
+		-- entrada2ULA <= saidaRegistrador(5 downto 3);
+		--	resultado<= saidaRegistrador;
+		
+
+end multiplicadorSequencialArch;

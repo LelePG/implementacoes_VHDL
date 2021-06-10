@@ -1,0 +1,561 @@
+Analysis & Synthesis report for multiplicador
+Sun Jun 06 01:22:18 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: Top-level Entity: |multiplicadorSequencial
+ 12. Parameter Settings for User Entity Instance: registrador:MR
+ 13. Parameter Settings for User Entity Instance: registrador:MD
+ 14. Parameter Settings for User Entity Instance: registrador:PR
+ 15. Parameter Settings for User Entity Instance: mux:mux1
+ 16. Parameter Settings for User Entity Instance: somadorNbits:Somador
+ 17. Port Connectivity Checks: "somadorNbits:Somador|fullAdder:\somador:0:componenteSomador"
+ 18. Port Connectivity Checks: "mux:mux1"
+ 19. Port Connectivity Checks: "registrador:MD"
+ 20. Port Connectivity Checks: "registrador:MR"
+ 21. Elapsed Time Per Partition
+ 22. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sun Jun 06 01:22:17 2021           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; multiplicador                                   ;
+; Top-level Entity Name              ; multiplicadorSequencial                         ;
+; Family                             ; Cyclone IV GX                                   ;
+; Total logic elements               ; 75                                              ;
+;     Total combinational functions  ; 75                                              ;
+;     Dedicated logic registers      ; 36                                              ;
+; Total registers                    ; 36                                              ;
+; Total pins                         ; 39                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total GXB Receiver Channel PCS     ; 0                                               ;
+; Total GXB Receiver Channel PMA     ; 0                                               ;
+; Total GXB Transmitter Channel PCS  ; 0                                               ;
+; Total GXB Transmitter Channel PMA  ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++----------------------------------------------------------------------------+-------------------------+--------------------+
+; Option                                                                     ; Setting                 ; Default Value      ;
++----------------------------------------------------------------------------+-------------------------+--------------------+
+; Top-level entity name                                                      ; multiplicadorSequencial ; multiplicador      ;
+; Family name                                                                ; Cyclone IV GX           ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                     ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                      ; On                 ;
+; Enable compact report table                                                ; Off                     ; Off                ;
+; Restructure Multiplexers                                                   ; Auto                    ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                     ; Off                ;
+; Preserve fewer node names                                                  ; On                      ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                     ; Off                ;
+; Verilog Version                                                            ; Verilog_2001            ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993               ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto                    ; Auto               ;
+; Safe State Machine                                                         ; Off                     ; Off                ;
+; Extract Verilog State Machines                                             ; On                      ; On                 ;
+; Extract VHDL State Machines                                                ; On                      ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                     ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000                    ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                     ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                      ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                      ; On                 ;
+; Parallel Synthesis                                                         ; On                      ; On                 ;
+; DSP Block Balancing                                                        ; Auto                    ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                      ; On                 ;
+; Power-Up Don't Care                                                        ; On                      ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                     ; Off                ;
+; Remove Duplicate Registers                                                 ; On                      ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                     ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                     ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                     ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                     ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                     ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                      ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                     ; Off                ;
+; Optimization Technique                                                     ; Balanced                ; Balanced           ;
+; Carry Chain Length                                                         ; 70                      ; 70                 ;
+; Auto Carry Chains                                                          ; On                      ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                      ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                     ; Off                ;
+; Auto ROM Replacement                                                       ; On                      ; On                 ;
+; Auto RAM Replacement                                                       ; On                      ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                      ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto                    ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto                    ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                      ; On                 ;
+; Strict RAM Replacement                                                     ; Off                     ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                      ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                     ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                      ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                     ; Off                ;
+; Auto Resource Sharing                                                      ; Off                     ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                     ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                     ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                     ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                      ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                     ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                      ; On                 ;
+; Report Parameter Settings                                                  ; On                      ; On                 ;
+; Report Source Assignments                                                  ; On                      ; On                 ;
+; Report Connectivity Checks                                                 ; On                      ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                     ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                       ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation      ; Normal compilation ;
+; HDL message level                                                          ; Level2                  ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                     ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000                    ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000                    ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                     ; 100                ;
+; Clock MUX Protection                                                       ; On                      ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                     ; Off                ;
+; Block Design Naming                                                        ; Auto                    ; Auto               ;
+; SDC constraint protection                                                  ; Off                     ; Off                ;
+; Synthesis Effort                                                           ; Auto                    ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                      ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                     ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium                  ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto                    ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                      ; On                 ;
+; Synthesis Seed                                                             ; 1                       ; 1                  ;
++----------------------------------------------------------------------------+-------------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                  ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------+---------+
+; fullAdder.vhd                    ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Trabalho3QUASEFINAL8bits/Multiplicadores_Letícia_Tamires/fullAdder.vhd               ;         ;
+; somadorNbits.vhd                 ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Trabalho3QUASEFINAL8bits/Multiplicadores_Letícia_Tamires/somadorNbits.vhd            ;         ;
+; multiplicadorSequencial.vhd      ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Trabalho3QUASEFINAL8bits/Multiplicadores_Letícia_Tamires/multiplicadorSequencial.vhd ;         ;
+; mux.vhd                          ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Trabalho3QUASEFINAL8bits/Multiplicadores_Letícia_Tamires/mux.vhd                     ;         ;
+; registrador.vhd                  ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Trabalho3QUASEFINAL8bits/Multiplicadores_Letícia_Tamires/registrador.vhd             ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------+------------------+
+; Resource                 ; Usage            ;
++--------------------------+------------------+
+; I/O pins                 ; 39               ;
+; DSP block 9-bit elements ; 0                ;
+; Maximum fan-out node     ; clock~input      ;
+; Maximum fan-out          ; 36               ;
+; Total fan-out            ; 441              ;
+; Average fan-out          ; 2.33             ;
++--------------------------+------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                          ;
++------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                  ; Library Name ;
++------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------------+--------------+
+; |multiplicadorSequencial                       ; 75 (59)           ; 36 (4)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 39   ; 0            ; |multiplicadorSequencial                                                             ; work         ;
+;    |registrador:MD|                            ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|registrador:MD                                              ; work         ;
+;    |registrador:MR|                            ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|registrador:MR                                              ; work         ;
+;    |registrador:PR|                            ; 0 (0)             ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|registrador:PR                                              ; work         ;
+;    |somadorNbits:Somador|                      ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador                                        ; work         ;
+;       |fullAdder:\somador:0:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:0:componenteSomador ; work         ;
+;       |fullAdder:\somador:1:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:1:componenteSomador ; work         ;
+;       |fullAdder:\somador:2:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:2:componenteSomador ; work         ;
+;       |fullAdder:\somador:3:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:3:componenteSomador ; work         ;
+;       |fullAdder:\somador:4:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:4:componenteSomador ; work         ;
+;       |fullAdder:\somador:5:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:5:componenteSomador ; work         ;
+;       |fullAdder:\somador:6:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:6:componenteSomador ; work         ;
+;       |fullAdder:\somador:7:componenteSomador| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |multiplicadorSequencial|somadorNbits:Somador|fullAdder:\somador:7:componenteSomador ; work         ;
++------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; prox[0]                                             ; Mux21               ; yes                    ;
+; prox[1]                                             ; Mux21               ; yes                    ;
+; prox[2]                                             ; Mux21               ; yes                    ;
+; prox[3]                                             ; Mux21               ; yes                    ;
+; entradaRegitrador[0]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[1]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[2]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[3]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[4]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[5]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[6]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[7]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[8]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[9]                                ; Mux2                ; yes                    ;
+; entradaRegitrador[10]                               ; Mux2                ; yes                    ;
+; entradaRegitrador[11]                               ; Mux2                ; yes                    ;
+; entradaRegitrador[12]                               ; Mux2                ; yes                    ;
+; entradaRegitrador[13]                               ; Mux2                ; yes                    ;
+; entradaRegitrador[14]                               ; Mux2                ; yes                    ;
+; entradaRegitrador[15]                               ; Mux2                ; yes                    ;
+; controlaMux                                         ; Mux2                ; yes                    ;
+; b[0]                                                ; Mux26               ; yes                    ;
+; b[1]                                                ; Mux26               ; yes                    ;
+; b[2]                                                ; Mux26               ; yes                    ;
+; b[3]                                                ; Mux26               ; yes                    ;
+; b[4]                                                ; Mux26               ; yes                    ;
+; b[5]                                                ; Mux26               ; yes                    ;
+; b[6]                                                ; Mux26               ; yes                    ;
+; b[7]                                                ; Mux26               ; yes                    ;
+; a[1]                                                ; Mux35               ; yes                    ;
+; a[0]                                                ; Mux35               ; yes                    ;
+; a[7]                                                ; Mux35               ; yes                    ;
+; a[2]                                                ; Mux35               ; yes                    ;
+; a[5]                                                ; Mux35               ; yes                    ;
+; a[4]                                                ; Mux35               ; yes                    ;
+; a[3]                                                ; Mux35               ; yes                    ;
+; a[6]                                                ; Mux35               ; yes                    ;
+; Number of user-specified and inferred latches = 37  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 36    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 36    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 32    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
+; 8:1                ; 16 bits   ; 80 LEs        ; 0 LEs                ; 80 LEs                 ; No         ; |multiplicadorSequencial|Mux5  ;
+; 1:1                ; 8 bits    ; 0 LEs         ; 0 LEs                ; 0 LEs                  ; No         ; |multiplicadorSequencial|Mux38 ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 8 LEs                ; 32 LEs                 ; No         ; |multiplicadorSequencial|Mux25 ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; No         ; |multiplicadorSequencial|Mux21 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |multiplicadorSequencial ;
++----------------+-------+----------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                           ;
++----------------+-------+----------------------------------------------------------------+
+; TAMANHO        ; 8     ; Signed Integer                                                 ;
++----------------+-------+----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registrador:MR ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; tamanho        ; 16    ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registrador:MD ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; tamanho        ; 16    ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registrador:PR ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; tamanho        ; 16    ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux:mux1 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; tamanho        ; 8     ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: somadorNbits:Somador ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; tamanho        ; 8     ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "somadorNbits:Somador|fullAdder:\somador:0:componenteSomador" ;
++------+-------+----------+---------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                       ;
++------+-------+----------+---------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                                  ;
++------+-------+----------+---------------------------------------------------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "mux:mux1"       ;
++----------+-------+----------+--------------+
+; Port     ; Type  ; Severity ; Details      ;
++----------+-------+----------+--------------+
+; entrada0 ; Input ; Info     ; Stuck at GND ;
++----------+-------+----------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registrador:MD"                                                                         ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; q[15..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registrador:MR"                                                                         ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; q[15..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun Jun 06 01:22:14 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off multiplicador -c multiplicador
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file fulladder.vhd
+    Info (12022): Found design unit 1: fullAdder-fullAdderArch
+    Info (12023): Found entity 1: fullAdder
+Info (12021): Found 2 design units, including 1 entities, in source file somadornbits.vhd
+    Info (12022): Found design unit 1: somadorNbits-somadorNbitsArch
+    Info (12023): Found entity 1: somadorNbits
+Info (12021): Found 2 design units, including 1 entities, in source file multiplicadormatricial.vhd
+    Info (12022): Found design unit 1: multiplicadorMatricial-multiplicadorMatricialArch
+    Info (12023): Found entity 1: multiplicadorMatricial
+Info (12021): Found 2 design units, including 1 entities, in source file multiplicadorsequencial.vhd
+    Info (12022): Found design unit 1: multiplicadorSequencial-multiplicadorSequencialArch
+    Info (12023): Found entity 1: multiplicadorSequencial
+Warning (12090): Entity "mux" obtained from "mux.vhd" instead of from Quartus II megafunction library
+Info (12021): Found 2 design units, including 1 entities, in source file mux.vhd
+    Info (12022): Found design unit 1: mux-muxArch
+    Info (12023): Found entity 1: mux
+Info (12021): Found 2 design units, including 1 entities, in source file multiplicadorpor9.vhd
+    Info (12022): Found design unit 1: multiplicadorPor9-multiplicadorPor9Arch
+    Info (12023): Found entity 1: multiplicadorPor9
+Info (12021): Found 2 design units, including 1 entities, in source file registrador.vhd
+    Info (12022): Found design unit 1: registrador-registradorArch
+    Info (12023): Found entity 1: registrador
+Info (12127): Elaborating entity "multiplicadorSequencial" for the top level hierarchy
+Critical Warning (10920): VHDL Incomplete Partial Association warning at multiplicadorSequencial.vhd(68): port or argument "d" has 8/16 unassociated elements
+Critical Warning (10920): VHDL Incomplete Partial Association warning at multiplicadorSequencial.vhd(68): port or argument "q" has 8/16 unassociated elements
+Critical Warning (10920): VHDL Incomplete Partial Association warning at multiplicadorSequencial.vhd(76): port or argument "d" has 8/16 unassociated elements
+Critical Warning (10920): VHDL Incomplete Partial Association warning at multiplicadorSequencial.vhd(76): port or argument "q" has 8/16 unassociated elements
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(124): signal "op1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(125): signal "op2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(129): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(131): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(131): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(131): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(134): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(136): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(136): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(136): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(139): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(141): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(141): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(141): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(144): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(145): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(145): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(145): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(148): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(149): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(149): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(149): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(152): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(153): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(153): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(153): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(156): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(157): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(157): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(157): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(160): signal "aSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(161): signal "overflow" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(161): signal "saidaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(161): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(164): signal "bSaida" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at multiplicadorSequencial.vhd(166): signal "saidaRegistrador" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at multiplicadorSequencial.vhd(119): inferring latch(es) for signal or variable "a", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at multiplicadorSequencial.vhd(119): inferring latch(es) for signal or variable "b", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at multiplicadorSequencial.vhd(119): inferring latch(es) for signal or variable "prox", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at multiplicadorSequencial.vhd(119): inferring latch(es) for signal or variable "controlaMux", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at multiplicadorSequencial.vhd(119): inferring latch(es) for signal or variable "entradaRegitrador", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "entradaRegitrador[0]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[1]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[2]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[3]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[4]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[5]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[6]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[7]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[8]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[9]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[10]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[11]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[12]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[13]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[14]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "entradaRegitrador[15]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "controlaMux" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "prox[0]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "prox[1]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "prox[2]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "prox[3]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[0]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[1]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[2]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[3]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[4]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[5]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[6]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "b[7]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[0]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[1]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[2]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[3]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[4]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[5]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[6]" at multiplicadorSequencial.vhd(119)
+Info (10041): Inferred latch for "a[7]" at multiplicadorSequencial.vhd(119)
+Info (12128): Elaborating entity "registrador" for hierarchy "registrador:MR"
+Info (12128): Elaborating entity "mux" for hierarchy "mux:mux1"
+Warning (10492): VHDL Process Statement warning at mux.vhd(20): signal "entrada0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mux.vhd(21): signal "entrada1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "somadorNbits" for hierarchy "somadorNbits:Somador"
+Info (12128): Elaborating entity "fullAdder" for hierarchy "somadorNbits:Somador|fullAdder:\somador:0:componenteSomador"
+Warning (13012): Latch prox[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch prox[1] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[1]
+Warning (13012): Latch prox[2] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[2]
+Warning (13012): Latch prox[3] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[2]
+Warning (13012): Latch controlaMux has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[2]
+Warning (13012): Latch b[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch b[1] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch b[2] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch b[3] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch b[4] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch b[5] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch b[6] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Warning (13012): Latch b[7] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal atual[3]
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 150 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 19 input pins
+    Info (21059): Implemented 20 output pins
+    Info (21061): Implemented 111 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 75 warnings
+    Info: Peak virtual memory: 4676 megabytes
+    Info: Processing ended: Sun Jun 06 01:22:18 2021
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:02
+
+
