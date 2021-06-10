@@ -1,0 +1,1612 @@
+|ula
+opcode[0] => ~NO_FANOUT~
+opcode[1] => ~NO_FANOUT~
+opcode[2] => ~NO_FANOUT~
+opcode[3] => ~NO_FANOUT~
+opcode[4] => ~NO_FANOUT~
+opcode[5] => ~NO_FANOUT~
+rs[0] => ulaOperacoes:operacoesDaUla.registradorA[0]
+rs[1] => ulaOperacoes:operacoesDaUla.registradorA[1]
+rs[2] => ulaOperacoes:operacoesDaUla.registradorA[2]
+rs[3] => ulaOperacoes:operacoesDaUla.registradorA[3]
+rs[4] => ulaOperacoes:operacoesDaUla.registradorA[4]
+rs[5] => ulaOperacoes:operacoesDaUla.registradorA[5]
+rs[6] => ulaOperacoes:operacoesDaUla.registradorA[6]
+rs[7] => ulaOperacoes:operacoesDaUla.registradorA[7]
+rs[8] => ulaOperacoes:operacoesDaUla.registradorA[8]
+rs[9] => ulaOperacoes:operacoesDaUla.registradorA[9]
+rs[10] => ulaOperacoes:operacoesDaUla.registradorA[10]
+rs[11] => ulaOperacoes:operacoesDaUla.registradorA[11]
+rs[12] => ulaOperacoes:operacoesDaUla.registradorA[12]
+rs[13] => ulaOperacoes:operacoesDaUla.registradorA[13]
+rs[14] => ulaOperacoes:operacoesDaUla.registradorA[14]
+rs[15] => ulaOperacoes:operacoesDaUla.registradorA[15]
+rs[16] => ulaOperacoes:operacoesDaUla.registradorA[16]
+rs[17] => ulaOperacoes:operacoesDaUla.registradorA[17]
+rs[18] => ulaOperacoes:operacoesDaUla.registradorA[18]
+rs[19] => ulaOperacoes:operacoesDaUla.registradorA[19]
+rs[20] => ulaOperacoes:operacoesDaUla.registradorA[20]
+rs[21] => ulaOperacoes:operacoesDaUla.registradorA[21]
+rs[22] => ulaOperacoes:operacoesDaUla.registradorA[22]
+rs[23] => ulaOperacoes:operacoesDaUla.registradorA[23]
+rs[24] => ulaOperacoes:operacoesDaUla.registradorA[24]
+rs[25] => ulaOperacoes:operacoesDaUla.registradorA[25]
+rs[26] => ulaOperacoes:operacoesDaUla.registradorA[26]
+rs[27] => ulaOperacoes:operacoesDaUla.registradorA[27]
+rs[28] => ulaOperacoes:operacoesDaUla.registradorA[28]
+rs[29] => ulaOperacoes:operacoesDaUla.registradorA[29]
+rs[30] => ulaOperacoes:operacoesDaUla.registradorA[30]
+rs[31] => ulaOperacoes:operacoesDaUla.registradorA[31]
+rt[0] => ulaOperacoes:operacoesDaUla.registradorB[0]
+rt[1] => ulaOperacoes:operacoesDaUla.registradorB[1]
+rt[2] => ulaOperacoes:operacoesDaUla.registradorB[2]
+rt[3] => ulaOperacoes:operacoesDaUla.registradorB[3]
+rt[4] => ulaOperacoes:operacoesDaUla.registradorB[4]
+rt[5] => ulaOperacoes:operacoesDaUla.registradorB[5]
+rt[6] => ulaOperacoes:operacoesDaUla.registradorB[6]
+rt[7] => ulaOperacoes:operacoesDaUla.registradorB[7]
+rt[8] => ulaOperacoes:operacoesDaUla.registradorB[8]
+rt[9] => ulaOperacoes:operacoesDaUla.registradorB[9]
+rt[10] => ulaOperacoes:operacoesDaUla.registradorB[10]
+rt[11] => ulaOperacoes:operacoesDaUla.registradorB[11]
+rt[12] => ulaOperacoes:operacoesDaUla.registradorB[12]
+rt[13] => ulaOperacoes:operacoesDaUla.registradorB[13]
+rt[14] => ulaOperacoes:operacoesDaUla.registradorB[14]
+rt[15] => ulaOperacoes:operacoesDaUla.registradorB[15]
+rt[16] => ulaOperacoes:operacoesDaUla.registradorB[16]
+rt[17] => ulaOperacoes:operacoesDaUla.registradorB[17]
+rt[18] => ulaOperacoes:operacoesDaUla.registradorB[18]
+rt[19] => ulaOperacoes:operacoesDaUla.registradorB[19]
+rt[20] => ulaOperacoes:operacoesDaUla.registradorB[20]
+rt[21] => ulaOperacoes:operacoesDaUla.registradorB[21]
+rt[22] => ulaOperacoes:operacoesDaUla.registradorB[22]
+rt[23] => ulaOperacoes:operacoesDaUla.registradorB[23]
+rt[24] => ulaOperacoes:operacoesDaUla.registradorB[24]
+rt[25] => ulaOperacoes:operacoesDaUla.registradorB[25]
+rt[26] => ulaOperacoes:operacoesDaUla.registradorB[26]
+rt[27] => ulaOperacoes:operacoesDaUla.registradorB[27]
+rt[28] => ulaOperacoes:operacoesDaUla.registradorB[28]
+rt[29] => ulaOperacoes:operacoesDaUla.registradorB[29]
+rt[30] => ulaOperacoes:operacoesDaUla.registradorB[30]
+rt[31] => ulaOperacoes:operacoesDaUla.registradorB[31]
+rd[0] <= ulaOperacoes:operacoesDaUla.registradorDest[0]
+rd[1] <= ulaOperacoes:operacoesDaUla.registradorDest[1]
+rd[2] <= ulaOperacoes:operacoesDaUla.registradorDest[2]
+rd[3] <= ulaOperacoes:operacoesDaUla.registradorDest[3]
+rd[4] <= ulaOperacoes:operacoesDaUla.registradorDest[4]
+rd[5] <= ulaOperacoes:operacoesDaUla.registradorDest[5]
+rd[6] <= ulaOperacoes:operacoesDaUla.registradorDest[6]
+rd[7] <= ulaOperacoes:operacoesDaUla.registradorDest[7]
+rd[8] <= ulaOperacoes:operacoesDaUla.registradorDest[8]
+rd[9] <= ulaOperacoes:operacoesDaUla.registradorDest[9]
+rd[10] <= ulaOperacoes:operacoesDaUla.registradorDest[10]
+rd[11] <= ulaOperacoes:operacoesDaUla.registradorDest[11]
+rd[12] <= ulaOperacoes:operacoesDaUla.registradorDest[12]
+rd[13] <= ulaOperacoes:operacoesDaUla.registradorDest[13]
+rd[14] <= ulaOperacoes:operacoesDaUla.registradorDest[14]
+rd[15] <= ulaOperacoes:operacoesDaUla.registradorDest[15]
+rd[16] <= ulaOperacoes:operacoesDaUla.registradorDest[16]
+rd[17] <= ulaOperacoes:operacoesDaUla.registradorDest[17]
+rd[18] <= ulaOperacoes:operacoesDaUla.registradorDest[18]
+rd[19] <= ulaOperacoes:operacoesDaUla.registradorDest[19]
+rd[20] <= ulaOperacoes:operacoesDaUla.registradorDest[20]
+rd[21] <= ulaOperacoes:operacoesDaUla.registradorDest[21]
+rd[22] <= ulaOperacoes:operacoesDaUla.registradorDest[22]
+rd[23] <= ulaOperacoes:operacoesDaUla.registradorDest[23]
+rd[24] <= ulaOperacoes:operacoesDaUla.registradorDest[24]
+rd[25] <= ulaOperacoes:operacoesDaUla.registradorDest[25]
+rd[26] <= ulaOperacoes:operacoesDaUla.registradorDest[26]
+rd[27] <= ulaOperacoes:operacoesDaUla.registradorDest[27]
+rd[28] <= ulaOperacoes:operacoesDaUla.registradorDest[28]
+rd[29] <= ulaOperacoes:operacoesDaUla.registradorDest[29]
+rd[30] <= ulaOperacoes:operacoesDaUla.registradorDest[30]
+rd[31] <= ulaOperacoes:operacoesDaUla.registradorDest[31]
+shamt[0] => ~NO_FANOUT~
+shamt[1] => ~NO_FANOUT~
+shamt[2] => ~NO_FANOUT~
+shamt[3] => ~NO_FANOUT~
+shamt[4] => ~NO_FANOUT~
+funct[0] => ulaOperacoes:operacoesDaUla.funct[0]
+funct[1] => ulaOperacoes:operacoesDaUla.funct[1]
+funct[2] => ulaOperacoes:operacoesDaUla.funct[2]
+funct[3] => ulaOperacoes:operacoesDaUla.funct[3]
+funct[4] => ulaOperacoes:operacoesDaUla.funct[4]
+funct[5] => ulaOperacoes:operacoesDaUla.funct[5]
+overflow <= ulaOperacoes:operacoesDaUla.overflow
+carryOut <= ulaOperacoes:operacoesDaUla.carryOut
+zero <= ulaOperacoes:operacoesDaUla.zero
+negativo <= ulaOperacoes:operacoesDaUla.negativo
+
+
+|ula|ulaOperacoes:operacoesDaUla
+funct[0] => Equal0.IN5
+funct[0] => Equal1.IN4
+funct[0] => Equal2.IN4
+funct[0] => Equal3.IN4
+funct[0] => Equal4.IN4
+funct[0] => Equal5.IN4
+funct[1] => Equal0.IN4
+funct[1] => Equal1.IN5
+funct[1] => Equal2.IN3
+funct[1] => Equal3.IN3
+funct[1] => Equal4.IN3
+funct[1] => Equal5.IN3
+funct[2] => Equal0.IN3
+funct[2] => Equal1.IN3
+funct[2] => Equal2.IN5
+funct[2] => Equal3.IN2
+funct[2] => Equal4.IN2
+funct[2] => Equal5.IN2
+funct[3] => Equal0.IN2
+funct[3] => Equal1.IN2
+funct[3] => Equal2.IN2
+funct[3] => Equal3.IN5
+funct[3] => Equal4.IN1
+funct[3] => Equal5.IN1
+funct[4] => Equal0.IN1
+funct[4] => Equal1.IN1
+funct[4] => Equal2.IN1
+funct[4] => Equal3.IN1
+funct[4] => Equal4.IN5
+funct[4] => Equal5.IN0
+funct[5] => Equal0.IN0
+funct[5] => Equal1.IN0
+funct[5] => Equal2.IN0
+funct[5] => Equal3.IN0
+funct[5] => Equal4.IN0
+funct[5] => Equal5.IN5
+registradorA[0] => registradorR.IN0
+registradorA[0] => registradorR.IN0
+registradorA[0] => somadorNbits:somador.entrada1[0]
+registradorA[0] => subtratorNbits:subtrator.entrada1[0]
+registradorA[0] => registradorR[0].DATAA
+registradorA[1] => registradorR.IN0
+registradorA[1] => registradorR.IN0
+registradorA[1] => somadorNbits:somador.entrada1[1]
+registradorA[1] => subtratorNbits:subtrator.entrada1[1]
+registradorA[1] => registradorR[1].DATAA
+registradorA[2] => registradorR.IN0
+registradorA[2] => registradorR.IN0
+registradorA[2] => somadorNbits:somador.entrada1[2]
+registradorA[2] => subtratorNbits:subtrator.entrada1[2]
+registradorA[2] => registradorR[2].DATAA
+registradorA[3] => registradorR.IN0
+registradorA[3] => registradorR.IN0
+registradorA[3] => somadorNbits:somador.entrada1[3]
+registradorA[3] => subtratorNbits:subtrator.entrada1[3]
+registradorA[3] => registradorR[3].DATAA
+registradorA[4] => registradorR.IN0
+registradorA[4] => registradorR.IN0
+registradorA[4] => somadorNbits:somador.entrada1[4]
+registradorA[4] => subtratorNbits:subtrator.entrada1[4]
+registradorA[4] => registradorR[4].DATAA
+registradorA[5] => registradorR.IN0
+registradorA[5] => registradorR.IN0
+registradorA[5] => somadorNbits:somador.entrada1[5]
+registradorA[5] => subtratorNbits:subtrator.entrada1[5]
+registradorA[5] => registradorR[5].DATAA
+registradorA[6] => registradorR.IN0
+registradorA[6] => registradorR.IN0
+registradorA[6] => somadorNbits:somador.entrada1[6]
+registradorA[6] => subtratorNbits:subtrator.entrada1[6]
+registradorA[6] => registradorR[6].DATAA
+registradorA[7] => registradorR.IN0
+registradorA[7] => registradorR.IN0
+registradorA[7] => somadorNbits:somador.entrada1[7]
+registradorA[7] => subtratorNbits:subtrator.entrada1[7]
+registradorA[7] => registradorR[7].DATAA
+registradorA[8] => registradorR.IN0
+registradorA[8] => registradorR.IN0
+registradorA[8] => somadorNbits:somador.entrada1[8]
+registradorA[8] => subtratorNbits:subtrator.entrada1[8]
+registradorA[8] => registradorR[8].DATAA
+registradorA[9] => registradorR.IN0
+registradorA[9] => registradorR.IN0
+registradorA[9] => somadorNbits:somador.entrada1[9]
+registradorA[9] => subtratorNbits:subtrator.entrada1[9]
+registradorA[9] => registradorR[9].DATAA
+registradorA[10] => registradorR.IN0
+registradorA[10] => registradorR.IN0
+registradorA[10] => somadorNbits:somador.entrada1[10]
+registradorA[10] => subtratorNbits:subtrator.entrada1[10]
+registradorA[10] => registradorR[10].DATAA
+registradorA[11] => registradorR.IN0
+registradorA[11] => registradorR.IN0
+registradorA[11] => somadorNbits:somador.entrada1[11]
+registradorA[11] => subtratorNbits:subtrator.entrada1[11]
+registradorA[11] => registradorR[11].DATAA
+registradorA[12] => registradorR.IN0
+registradorA[12] => registradorR.IN0
+registradorA[12] => somadorNbits:somador.entrada1[12]
+registradorA[12] => subtratorNbits:subtrator.entrada1[12]
+registradorA[12] => registradorR[12].DATAA
+registradorA[13] => registradorR.IN0
+registradorA[13] => registradorR.IN0
+registradorA[13] => somadorNbits:somador.entrada1[13]
+registradorA[13] => subtratorNbits:subtrator.entrada1[13]
+registradorA[13] => registradorR[13].DATAA
+registradorA[14] => registradorR.IN0
+registradorA[14] => registradorR.IN0
+registradorA[14] => somadorNbits:somador.entrada1[14]
+registradorA[14] => subtratorNbits:subtrator.entrada1[14]
+registradorA[14] => registradorR[14].DATAA
+registradorA[15] => registradorR.IN0
+registradorA[15] => registradorR.IN0
+registradorA[15] => somadorNbits:somador.entrada1[15]
+registradorA[15] => subtratorNbits:subtrator.entrada1[15]
+registradorA[15] => registradorR[15].DATAA
+registradorA[16] => registradorR.IN0
+registradorA[16] => registradorR.IN0
+registradorA[16] => somadorNbits:somador.entrada1[16]
+registradorA[16] => subtratorNbits:subtrator.entrada1[16]
+registradorA[16] => registradorR[16].DATAA
+registradorA[17] => registradorR.IN0
+registradorA[17] => registradorR.IN0
+registradorA[17] => somadorNbits:somador.entrada1[17]
+registradorA[17] => subtratorNbits:subtrator.entrada1[17]
+registradorA[17] => registradorR[17].DATAA
+registradorA[18] => registradorR.IN0
+registradorA[18] => registradorR.IN0
+registradorA[18] => somadorNbits:somador.entrada1[18]
+registradorA[18] => subtratorNbits:subtrator.entrada1[18]
+registradorA[18] => registradorR[18].DATAA
+registradorA[19] => registradorR.IN0
+registradorA[19] => registradorR.IN0
+registradorA[19] => somadorNbits:somador.entrada1[19]
+registradorA[19] => subtratorNbits:subtrator.entrada1[19]
+registradorA[19] => registradorR[19].DATAA
+registradorA[20] => registradorR.IN0
+registradorA[20] => registradorR.IN0
+registradorA[20] => somadorNbits:somador.entrada1[20]
+registradorA[20] => subtratorNbits:subtrator.entrada1[20]
+registradorA[20] => registradorR[20].DATAA
+registradorA[21] => registradorR.IN0
+registradorA[21] => registradorR.IN0
+registradorA[21] => somadorNbits:somador.entrada1[21]
+registradorA[21] => subtratorNbits:subtrator.entrada1[21]
+registradorA[21] => registradorR[21].DATAA
+registradorA[22] => registradorR.IN0
+registradorA[22] => registradorR.IN0
+registradorA[22] => somadorNbits:somador.entrada1[22]
+registradorA[22] => subtratorNbits:subtrator.entrada1[22]
+registradorA[22] => registradorR[22].DATAA
+registradorA[23] => registradorR.IN0
+registradorA[23] => registradorR.IN0
+registradorA[23] => somadorNbits:somador.entrada1[23]
+registradorA[23] => subtratorNbits:subtrator.entrada1[23]
+registradorA[23] => registradorR[23].DATAA
+registradorA[24] => registradorR.IN0
+registradorA[24] => registradorR.IN0
+registradorA[24] => somadorNbits:somador.entrada1[24]
+registradorA[24] => subtratorNbits:subtrator.entrada1[24]
+registradorA[24] => registradorR[24].DATAA
+registradorA[25] => registradorR.IN0
+registradorA[25] => registradorR.IN0
+registradorA[25] => somadorNbits:somador.entrada1[25]
+registradorA[25] => subtratorNbits:subtrator.entrada1[25]
+registradorA[25] => registradorR[25].DATAA
+registradorA[26] => registradorR.IN0
+registradorA[26] => registradorR.IN0
+registradorA[26] => somadorNbits:somador.entrada1[26]
+registradorA[26] => subtratorNbits:subtrator.entrada1[26]
+registradorA[26] => registradorR[26].DATAA
+registradorA[27] => registradorR.IN0
+registradorA[27] => registradorR.IN0
+registradorA[27] => somadorNbits:somador.entrada1[27]
+registradorA[27] => subtratorNbits:subtrator.entrada1[27]
+registradorA[27] => registradorR[27].DATAA
+registradorA[28] => registradorR.IN0
+registradorA[28] => registradorR.IN0
+registradorA[28] => somadorNbits:somador.entrada1[28]
+registradorA[28] => subtratorNbits:subtrator.entrada1[28]
+registradorA[28] => registradorR[28].DATAA
+registradorA[29] => registradorR.IN0
+registradorA[29] => registradorR.IN0
+registradorA[29] => somadorNbits:somador.entrada1[29]
+registradorA[29] => subtratorNbits:subtrator.entrada1[29]
+registradorA[29] => registradorR[29].DATAA
+registradorA[30] => registradorR.IN0
+registradorA[30] => registradorR.IN0
+registradorA[30] => somadorNbits:somador.entrada1[30]
+registradorA[30] => subtratorNbits:subtrator.entrada1[30]
+registradorA[30] => registradorR[30].DATAA
+registradorA[31] => registradorR.IN0
+registradorA[31] => registradorR.IN0
+registradorA[31] => somadorNbits:somador.entrada1[31]
+registradorA[31] => subtratorNbits:subtrator.entrada1[31]
+registradorA[31] => registradorR[31].DATAA
+registradorB[0] => registradorR.IN1
+registradorB[0] => registradorR.IN1
+registradorB[0] => somadorNbits:somador.entrada2[0]
+registradorB[0] => subtratorNbits:subtrator.entrada2[0]
+registradorB[0] => registradorR.IN1
+registradorB[1] => registradorR.IN1
+registradorB[1] => registradorR.IN1
+registradorB[1] => somadorNbits:somador.entrada2[1]
+registradorB[1] => subtratorNbits:subtrator.entrada2[1]
+registradorB[1] => registradorR.IN1
+registradorB[2] => registradorR.IN1
+registradorB[2] => registradorR.IN1
+registradorB[2] => somadorNbits:somador.entrada2[2]
+registradorB[2] => subtratorNbits:subtrator.entrada2[2]
+registradorB[2] => registradorR.IN1
+registradorB[3] => registradorR.IN1
+registradorB[3] => registradorR.IN1
+registradorB[3] => somadorNbits:somador.entrada2[3]
+registradorB[3] => subtratorNbits:subtrator.entrada2[3]
+registradorB[3] => registradorR.IN1
+registradorB[4] => registradorR.IN1
+registradorB[4] => registradorR.IN1
+registradorB[4] => somadorNbits:somador.entrada2[4]
+registradorB[4] => subtratorNbits:subtrator.entrada2[4]
+registradorB[4] => registradorR.IN1
+registradorB[5] => registradorR.IN1
+registradorB[5] => registradorR.IN1
+registradorB[5] => somadorNbits:somador.entrada2[5]
+registradorB[5] => subtratorNbits:subtrator.entrada2[5]
+registradorB[5] => registradorR.IN1
+registradorB[6] => registradorR.IN1
+registradorB[6] => registradorR.IN1
+registradorB[6] => somadorNbits:somador.entrada2[6]
+registradorB[6] => subtratorNbits:subtrator.entrada2[6]
+registradorB[6] => registradorR.IN1
+registradorB[7] => registradorR.IN1
+registradorB[7] => registradorR.IN1
+registradorB[7] => somadorNbits:somador.entrada2[7]
+registradorB[7] => subtratorNbits:subtrator.entrada2[7]
+registradorB[7] => registradorR.IN1
+registradorB[8] => registradorR.IN1
+registradorB[8] => registradorR.IN1
+registradorB[8] => somadorNbits:somador.entrada2[8]
+registradorB[8] => subtratorNbits:subtrator.entrada2[8]
+registradorB[8] => registradorR.IN1
+registradorB[9] => registradorR.IN1
+registradorB[9] => registradorR.IN1
+registradorB[9] => somadorNbits:somador.entrada2[9]
+registradorB[9] => subtratorNbits:subtrator.entrada2[9]
+registradorB[9] => registradorR.IN1
+registradorB[10] => registradorR.IN1
+registradorB[10] => registradorR.IN1
+registradorB[10] => somadorNbits:somador.entrada2[10]
+registradorB[10] => subtratorNbits:subtrator.entrada2[10]
+registradorB[10] => registradorR.IN1
+registradorB[11] => registradorR.IN1
+registradorB[11] => registradorR.IN1
+registradorB[11] => somadorNbits:somador.entrada2[11]
+registradorB[11] => subtratorNbits:subtrator.entrada2[11]
+registradorB[11] => registradorR.IN1
+registradorB[12] => registradorR.IN1
+registradorB[12] => registradorR.IN1
+registradorB[12] => somadorNbits:somador.entrada2[12]
+registradorB[12] => subtratorNbits:subtrator.entrada2[12]
+registradorB[12] => registradorR.IN1
+registradorB[13] => registradorR.IN1
+registradorB[13] => registradorR.IN1
+registradorB[13] => somadorNbits:somador.entrada2[13]
+registradorB[13] => subtratorNbits:subtrator.entrada2[13]
+registradorB[13] => registradorR.IN1
+registradorB[14] => registradorR.IN1
+registradorB[14] => registradorR.IN1
+registradorB[14] => somadorNbits:somador.entrada2[14]
+registradorB[14] => subtratorNbits:subtrator.entrada2[14]
+registradorB[14] => registradorR.IN1
+registradorB[15] => registradorR.IN1
+registradorB[15] => registradorR.IN1
+registradorB[15] => somadorNbits:somador.entrada2[15]
+registradorB[15] => subtratorNbits:subtrator.entrada2[15]
+registradorB[15] => registradorR.IN1
+registradorB[16] => registradorR.IN1
+registradorB[16] => registradorR.IN1
+registradorB[16] => somadorNbits:somador.entrada2[16]
+registradorB[16] => subtratorNbits:subtrator.entrada2[16]
+registradorB[16] => registradorR.IN1
+registradorB[17] => registradorR.IN1
+registradorB[17] => registradorR.IN1
+registradorB[17] => somadorNbits:somador.entrada2[17]
+registradorB[17] => subtratorNbits:subtrator.entrada2[17]
+registradorB[17] => registradorR.IN1
+registradorB[18] => registradorR.IN1
+registradorB[18] => registradorR.IN1
+registradorB[18] => somadorNbits:somador.entrada2[18]
+registradorB[18] => subtratorNbits:subtrator.entrada2[18]
+registradorB[18] => registradorR.IN1
+registradorB[19] => registradorR.IN1
+registradorB[19] => registradorR.IN1
+registradorB[19] => somadorNbits:somador.entrada2[19]
+registradorB[19] => subtratorNbits:subtrator.entrada2[19]
+registradorB[19] => registradorR.IN1
+registradorB[20] => registradorR.IN1
+registradorB[20] => registradorR.IN1
+registradorB[20] => somadorNbits:somador.entrada2[20]
+registradorB[20] => subtratorNbits:subtrator.entrada2[20]
+registradorB[20] => registradorR.IN1
+registradorB[21] => registradorR.IN1
+registradorB[21] => registradorR.IN1
+registradorB[21] => somadorNbits:somador.entrada2[21]
+registradorB[21] => subtratorNbits:subtrator.entrada2[21]
+registradorB[21] => registradorR.IN1
+registradorB[22] => registradorR.IN1
+registradorB[22] => registradorR.IN1
+registradorB[22] => somadorNbits:somador.entrada2[22]
+registradorB[22] => subtratorNbits:subtrator.entrada2[22]
+registradorB[22] => registradorR.IN1
+registradorB[23] => registradorR.IN1
+registradorB[23] => registradorR.IN1
+registradorB[23] => somadorNbits:somador.entrada2[23]
+registradorB[23] => subtratorNbits:subtrator.entrada2[23]
+registradorB[23] => registradorR.IN1
+registradorB[24] => registradorR.IN1
+registradorB[24] => registradorR.IN1
+registradorB[24] => somadorNbits:somador.entrada2[24]
+registradorB[24] => subtratorNbits:subtrator.entrada2[24]
+registradorB[24] => registradorR.IN1
+registradorB[25] => registradorR.IN1
+registradorB[25] => registradorR.IN1
+registradorB[25] => somadorNbits:somador.entrada2[25]
+registradorB[25] => subtratorNbits:subtrator.entrada2[25]
+registradorB[25] => registradorR.IN1
+registradorB[26] => registradorR.IN1
+registradorB[26] => registradorR.IN1
+registradorB[26] => somadorNbits:somador.entrada2[26]
+registradorB[26] => subtratorNbits:subtrator.entrada2[26]
+registradorB[26] => registradorR.IN1
+registradorB[27] => registradorR.IN1
+registradorB[27] => registradorR.IN1
+registradorB[27] => somadorNbits:somador.entrada2[27]
+registradorB[27] => subtratorNbits:subtrator.entrada2[27]
+registradorB[27] => registradorR.IN1
+registradorB[28] => registradorR.IN1
+registradorB[28] => registradorR.IN1
+registradorB[28] => somadorNbits:somador.entrada2[28]
+registradorB[28] => subtratorNbits:subtrator.entrada2[28]
+registradorB[28] => registradorR.IN1
+registradorB[29] => registradorR.IN1
+registradorB[29] => registradorR.IN1
+registradorB[29] => somadorNbits:somador.entrada2[29]
+registradorB[29] => subtratorNbits:subtrator.entrada2[29]
+registradorB[29] => registradorR.IN1
+registradorB[30] => registradorR.IN1
+registradorB[30] => registradorR.IN1
+registradorB[30] => somadorNbits:somador.entrada2[30]
+registradorB[30] => subtratorNbits:subtrator.entrada2[30]
+registradorB[30] => registradorR.IN1
+registradorB[31] => registradorR.IN1
+registradorB[31] => registradorR.IN1
+registradorB[31] => somadorNbits:somador.entrada2[31]
+registradorB[31] => subtratorNbits:subtrator.entrada2[31]
+registradorB[31] => registradorR.IN1
+registradorDest[0] <= registradorR[0].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[1] <= registradorR[1].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[2] <= registradorR[2].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[3] <= registradorR[3].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[4] <= registradorR[4].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[5] <= registradorR[5].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[6] <= registradorR[6].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[7] <= registradorR[7].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[8] <= registradorR[8].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[9] <= registradorR[9].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[10] <= registradorR[10].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[11] <= registradorR[11].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[12] <= registradorR[12].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[13] <= registradorR[13].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[14] <= registradorR[14].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[15] <= registradorR[15].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[16] <= registradorR[16].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[17] <= registradorR[17].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[18] <= registradorR[18].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[19] <= registradorR[19].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[20] <= registradorR[20].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[21] <= registradorR[21].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[22] <= registradorR[22].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[23] <= registradorR[23].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[24] <= registradorR[24].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[25] <= registradorR[25].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[26] <= registradorR[26].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[27] <= registradorR[27].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[28] <= registradorR[28].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[29] <= registradorR[29].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[30] <= registradorR[30].DB_MAX_OUTPUT_PORT_TYPE
+registradorDest[31] <= registradorR[31].DB_MAX_OUTPUT_PORT_TYPE
+overflow <= SinalOverflow.DB_MAX_OUTPUT_PORT_TYPE
+carryOut <= SinalcarryOut.DB_MAX_OUTPUT_PORT_TYPE
+zero <= Equal6.DB_MAX_OUTPUT_PORT_TYPE
+negativo <= Sinalnegativo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada1[4] => fullAdder:somador:4:componenteSomador.a
+entrada1[5] => fullAdder:somador:5:componenteSomador.a
+entrada1[6] => fullAdder:somador:6:componenteSomador.a
+entrada1[7] => fullAdder:somador:7:componenteSomador.a
+entrada1[8] => fullAdder:somador:8:componenteSomador.a
+entrada1[9] => fullAdder:somador:9:componenteSomador.a
+entrada1[10] => fullAdder:somador:10:componenteSomador.a
+entrada1[11] => fullAdder:somador:11:componenteSomador.a
+entrada1[12] => fullAdder:somador:12:componenteSomador.a
+entrada1[13] => fullAdder:somador:13:componenteSomador.a
+entrada1[14] => fullAdder:somador:14:componenteSomador.a
+entrada1[15] => fullAdder:somador:15:componenteSomador.a
+entrada1[16] => fullAdder:somador:16:componenteSomador.a
+entrada1[17] => fullAdder:somador:17:componenteSomador.a
+entrada1[18] => fullAdder:somador:18:componenteSomador.a
+entrada1[19] => fullAdder:somador:19:componenteSomador.a
+entrada1[20] => fullAdder:somador:20:componenteSomador.a
+entrada1[21] => fullAdder:somador:21:componenteSomador.a
+entrada1[22] => fullAdder:somador:22:componenteSomador.a
+entrada1[23] => fullAdder:somador:23:componenteSomador.a
+entrada1[24] => fullAdder:somador:24:componenteSomador.a
+entrada1[25] => fullAdder:somador:25:componenteSomador.a
+entrada1[26] => fullAdder:somador:26:componenteSomador.a
+entrada1[27] => fullAdder:somador:27:componenteSomador.a
+entrada1[28] => fullAdder:somador:28:componenteSomador.a
+entrada1[29] => fullAdder:somador:29:componenteSomador.a
+entrada1[30] => fullAdder:somador:30:componenteSomador.a
+entrada1[31] => fullAdder:somador:31:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+entrada2[4] => fullAdder:somador:4:componenteSomador.b
+entrada2[5] => fullAdder:somador:5:componenteSomador.b
+entrada2[6] => fullAdder:somador:6:componenteSomador.b
+entrada2[7] => fullAdder:somador:7:componenteSomador.b
+entrada2[8] => fullAdder:somador:8:componenteSomador.b
+entrada2[9] => fullAdder:somador:9:componenteSomador.b
+entrada2[10] => fullAdder:somador:10:componenteSomador.b
+entrada2[11] => fullAdder:somador:11:componenteSomador.b
+entrada2[12] => fullAdder:somador:12:componenteSomador.b
+entrada2[13] => fullAdder:somador:13:componenteSomador.b
+entrada2[14] => fullAdder:somador:14:componenteSomador.b
+entrada2[15] => fullAdder:somador:15:componenteSomador.b
+entrada2[16] => fullAdder:somador:16:componenteSomador.b
+entrada2[17] => fullAdder:somador:17:componenteSomador.b
+entrada2[18] => fullAdder:somador:18:componenteSomador.b
+entrada2[19] => fullAdder:somador:19:componenteSomador.b
+entrada2[20] => fullAdder:somador:20:componenteSomador.b
+entrada2[21] => fullAdder:somador:21:componenteSomador.b
+entrada2[22] => fullAdder:somador:22:componenteSomador.b
+entrada2[23] => fullAdder:somador:23:componenteSomador.b
+entrada2[24] => fullAdder:somador:24:componenteSomador.b
+entrada2[25] => fullAdder:somador:25:componenteSomador.b
+entrada2[26] => fullAdder:somador:26:componenteSomador.b
+entrada2[27] => fullAdder:somador:27:componenteSomador.b
+entrada2[28] => fullAdder:somador:28:componenteSomador.b
+entrada2[29] => fullAdder:somador:29:componenteSomador.b
+entrada2[30] => fullAdder:somador:30:componenteSomador.b
+entrada2[31] => fullAdder:somador:31:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+resultadoSoma[4] <= fullAdder:somador:4:componenteSomador.saida
+resultadoSoma[5] <= fullAdder:somador:5:componenteSomador.saida
+resultadoSoma[6] <= fullAdder:somador:6:componenteSomador.saida
+resultadoSoma[7] <= fullAdder:somador:7:componenteSomador.saida
+resultadoSoma[8] <= fullAdder:somador:8:componenteSomador.saida
+resultadoSoma[9] <= fullAdder:somador:9:componenteSomador.saida
+resultadoSoma[10] <= fullAdder:somador:10:componenteSomador.saida
+resultadoSoma[11] <= fullAdder:somador:11:componenteSomador.saida
+resultadoSoma[12] <= fullAdder:somador:12:componenteSomador.saida
+resultadoSoma[13] <= fullAdder:somador:13:componenteSomador.saida
+resultadoSoma[14] <= fullAdder:somador:14:componenteSomador.saida
+resultadoSoma[15] <= fullAdder:somador:15:componenteSomador.saida
+resultadoSoma[16] <= fullAdder:somador:16:componenteSomador.saida
+resultadoSoma[17] <= fullAdder:somador:17:componenteSomador.saida
+resultadoSoma[18] <= fullAdder:somador:18:componenteSomador.saida
+resultadoSoma[19] <= fullAdder:somador:19:componenteSomador.saida
+resultadoSoma[20] <= fullAdder:somador:20:componenteSomador.saida
+resultadoSoma[21] <= fullAdder:somador:21:componenteSomador.saida
+resultadoSoma[22] <= fullAdder:somador:22:componenteSomador.saida
+resultadoSoma[23] <= fullAdder:somador:23:componenteSomador.saida
+resultadoSoma[24] <= fullAdder:somador:24:componenteSomador.saida
+resultadoSoma[25] <= fullAdder:somador:25:componenteSomador.saida
+resultadoSoma[26] <= fullAdder:somador:26:componenteSomador.saida
+resultadoSoma[27] <= fullAdder:somador:27:componenteSomador.saida
+resultadoSoma[28] <= fullAdder:somador:28:componenteSomador.saida
+resultadoSoma[29] <= fullAdder:somador:29:componenteSomador.saida
+resultadoSoma[30] <= fullAdder:somador:30:componenteSomador.saida
+resultadoSoma[31] <= fullAdder:somador:31:componenteSomador.saida
+overflow <= fullAdder:somador:31:componenteSomador.cout
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:4:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:5:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:6:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:7:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:8:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:9:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:10:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:11:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:12:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:13:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:14:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:15:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:16:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:17:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:18:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:19:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:20:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:21:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:22:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:23:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:24:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:25:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:26:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:27:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:28:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:29:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:30:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:31:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada1[4] => fullSubtractor:subtrator:4:componenteSomador.a
+entrada1[5] => fullSubtractor:subtrator:5:componenteSomador.a
+entrada1[6] => fullSubtractor:subtrator:6:componenteSomador.a
+entrada1[7] => fullSubtractor:subtrator:7:componenteSomador.a
+entrada1[8] => fullSubtractor:subtrator:8:componenteSomador.a
+entrada1[9] => fullSubtractor:subtrator:9:componenteSomador.a
+entrada1[10] => fullSubtractor:subtrator:10:componenteSomador.a
+entrada1[11] => fullSubtractor:subtrator:11:componenteSomador.a
+entrada1[12] => fullSubtractor:subtrator:12:componenteSomador.a
+entrada1[13] => fullSubtractor:subtrator:13:componenteSomador.a
+entrada1[14] => fullSubtractor:subtrator:14:componenteSomador.a
+entrada1[15] => fullSubtractor:subtrator:15:componenteSomador.a
+entrada1[16] => fullSubtractor:subtrator:16:componenteSomador.a
+entrada1[17] => fullSubtractor:subtrator:17:componenteSomador.a
+entrada1[18] => fullSubtractor:subtrator:18:componenteSomador.a
+entrada1[19] => fullSubtractor:subtrator:19:componenteSomador.a
+entrada1[20] => fullSubtractor:subtrator:20:componenteSomador.a
+entrada1[21] => fullSubtractor:subtrator:21:componenteSomador.a
+entrada1[22] => fullSubtractor:subtrator:22:componenteSomador.a
+entrada1[23] => fullSubtractor:subtrator:23:componenteSomador.a
+entrada1[24] => fullSubtractor:subtrator:24:componenteSomador.a
+entrada1[25] => fullSubtractor:subtrator:25:componenteSomador.a
+entrada1[26] => fullSubtractor:subtrator:26:componenteSomador.a
+entrada1[27] => fullSubtractor:subtrator:27:componenteSomador.a
+entrada1[28] => fullSubtractor:subtrator:28:componenteSomador.a
+entrada1[29] => fullSubtractor:subtrator:29:componenteSomador.a
+entrada1[30] => fullSubtractor:subtrator:30:componenteSomador.a
+entrada1[31] => fullSubtractor:subtrator:31:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+entrada2[4] => fullSubtractor:subtrator:4:componenteSomador.b
+entrada2[5] => fullSubtractor:subtrator:5:componenteSomador.b
+entrada2[6] => fullSubtractor:subtrator:6:componenteSomador.b
+entrada2[7] => fullSubtractor:subtrator:7:componenteSomador.b
+entrada2[8] => fullSubtractor:subtrator:8:componenteSomador.b
+entrada2[9] => fullSubtractor:subtrator:9:componenteSomador.b
+entrada2[10] => fullSubtractor:subtrator:10:componenteSomador.b
+entrada2[11] => fullSubtractor:subtrator:11:componenteSomador.b
+entrada2[12] => fullSubtractor:subtrator:12:componenteSomador.b
+entrada2[13] => fullSubtractor:subtrator:13:componenteSomador.b
+entrada2[14] => fullSubtractor:subtrator:14:componenteSomador.b
+entrada2[15] => fullSubtractor:subtrator:15:componenteSomador.b
+entrada2[16] => fullSubtractor:subtrator:16:componenteSomador.b
+entrada2[17] => fullSubtractor:subtrator:17:componenteSomador.b
+entrada2[18] => fullSubtractor:subtrator:18:componenteSomador.b
+entrada2[19] => fullSubtractor:subtrator:19:componenteSomador.b
+entrada2[20] => fullSubtractor:subtrator:20:componenteSomador.b
+entrada2[21] => fullSubtractor:subtrator:21:componenteSomador.b
+entrada2[22] => fullSubtractor:subtrator:22:componenteSomador.b
+entrada2[23] => fullSubtractor:subtrator:23:componenteSomador.b
+entrada2[24] => fullSubtractor:subtrator:24:componenteSomador.b
+entrada2[25] => fullSubtractor:subtrator:25:componenteSomador.b
+entrada2[26] => fullSubtractor:subtrator:26:componenteSomador.b
+entrada2[27] => fullSubtractor:subtrator:27:componenteSomador.b
+entrada2[28] => fullSubtractor:subtrator:28:componenteSomador.b
+entrada2[29] => fullSubtractor:subtrator:29:componenteSomador.b
+entrada2[30] => fullSubtractor:subtrator:30:componenteSomador.b
+entrada2[31] => fullSubtractor:subtrator:31:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+resultadoSub[4] <= fullSubtractor:subtrator:4:componenteSomador.saida
+resultadoSub[5] <= fullSubtractor:subtrator:5:componenteSomador.saida
+resultadoSub[6] <= fullSubtractor:subtrator:6:componenteSomador.saida
+resultadoSub[7] <= fullSubtractor:subtrator:7:componenteSomador.saida
+resultadoSub[8] <= fullSubtractor:subtrator:8:componenteSomador.saida
+resultadoSub[9] <= fullSubtractor:subtrator:9:componenteSomador.saida
+resultadoSub[10] <= fullSubtractor:subtrator:10:componenteSomador.saida
+resultadoSub[11] <= fullSubtractor:subtrator:11:componenteSomador.saida
+resultadoSub[12] <= fullSubtractor:subtrator:12:componenteSomador.saida
+resultadoSub[13] <= fullSubtractor:subtrator:13:componenteSomador.saida
+resultadoSub[14] <= fullSubtractor:subtrator:14:componenteSomador.saida
+resultadoSub[15] <= fullSubtractor:subtrator:15:componenteSomador.saida
+resultadoSub[16] <= fullSubtractor:subtrator:16:componenteSomador.saida
+resultadoSub[17] <= fullSubtractor:subtrator:17:componenteSomador.saida
+resultadoSub[18] <= fullSubtractor:subtrator:18:componenteSomador.saida
+resultadoSub[19] <= fullSubtractor:subtrator:19:componenteSomador.saida
+resultadoSub[20] <= fullSubtractor:subtrator:20:componenteSomador.saida
+resultadoSub[21] <= fullSubtractor:subtrator:21:componenteSomador.saida
+resultadoSub[22] <= fullSubtractor:subtrator:22:componenteSomador.saida
+resultadoSub[23] <= fullSubtractor:subtrator:23:componenteSomador.saida
+resultadoSub[24] <= fullSubtractor:subtrator:24:componenteSomador.saida
+resultadoSub[25] <= fullSubtractor:subtrator:25:componenteSomador.saida
+resultadoSub[26] <= fullSubtractor:subtrator:26:componenteSomador.saida
+resultadoSub[27] <= fullSubtractor:subtrator:27:componenteSomador.saida
+resultadoSub[28] <= fullSubtractor:subtrator:28:componenteSomador.saida
+resultadoSub[29] <= fullSubtractor:subtrator:29:componenteSomador.saida
+resultadoSub[30] <= fullSubtractor:subtrator:30:componenteSomador.saida
+resultadoSub[31] <= fullSubtractor:subtrator:31:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:31:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:31:componenteSomador.saida
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:4:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:5:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:6:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:7:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:8:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:9:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:10:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:11:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:12:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:13:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:14:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:15:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:16:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:17:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:18:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:19:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:20:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:21:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:22:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:23:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:24:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:25:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:26:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:27:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:28:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:29:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:30:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:31:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

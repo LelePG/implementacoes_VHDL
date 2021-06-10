@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Letícia\Desktop\Nova pasta\simulation\qsim
+vula
+Z1 !s100 ]VRGN2Kl5E>N4CVhM6MGW2
+Z2 Ia4b;;9DU0fm`OkOFMfCX>2
+Z3 VCdPIYcTHfMJd>bm?ffaHg3
+Z4 dC:\Users\Letícia\Desktop\Nova pasta\simulation\qsim
+Z5 w1620834233
+Z6 8ula.vo
+Z7 Fula.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ula.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1620834234.724000
+Z12 !s107 ula.vo|
+!s101 -O0
+vula_vlg_check_tst
+!i10b 1
+Z13 !s100 >BfXc<iczZTYVWZ0INO[@3
+Z14 IG;`]S2E7R264ZWPza>ZXQ2
+Z15 VX7NQO]3:WzJjJ5h^odCI^3
+R4
+Z16 w1620834231
+Z17 8ula.vt
+Z18 Fula.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z19 !s108 1620834235.019000
+Z20 !s107 ula.vt|
+Z21 !s90 -work|work|ula.vt|
+!s101 -O0
+R10
+vula_vlg_sample_tst
+!i10b 1
+Z22 !s100 1n`P0CUk3Mjee305o^E042
+Z23 IMN3d>]BUR@nH5KHT`bNGU1
+Z24 VcTU7TI]@jkk3US=ChRblk1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vula_vlg_vec_tst
+!i10b 1
+!s100 VJ4:=]ik6]XC69MMLGTP^3
+I1<UPGR[:JRRC8giZ98;k70
+Z25 VBSK`iV7TVbh_f_eCb<4Km2
+R4
+R16
+R17
+R18
+Z26 L0 825
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

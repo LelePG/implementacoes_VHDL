@@ -1,0 +1,563 @@
+Analysis & Synthesis report for ula
+Wed Apr 28 11:44:51 2021
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: ulaOperacoes:operacoesDaUla
+ 12. Parameter Settings for User Entity Instance: ulaOperacoes:operacoesDaUla|somadorNbits:somador
+ 13. Parameter Settings for User Entity Instance: ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator
+ 14. Port Connectivity Checks: "ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:0:componenteSomador"
+ 15. Port Connectivity Checks: "ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:0:componenteSomador"
+ 16. Elapsed Time Per Partition
+ 17. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Apr 28 11:44:50 2021           ;
+; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; ula                                             ;
+; Top-level Entity Name              ; ula                                             ;
+; Family                             ; Cyclone IV GX                                   ;
+; Total logic elements               ; 250                                             ;
+;     Total combinational functions  ; 250                                             ;
+;     Dedicated logic registers      ; 0                                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 117                                             ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total GXB Receiver Channel PCS     ; 0                                               ;
+; Total GXB Receiver Channel PMA     ; 0                                               ;
+; Total GXB Transmitter Channel PCS  ; 0                                               ;
+; Total GXB Transmitter Channel PMA  ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                                      ; ula                ; ula                ;
+; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                  ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
+; ula.vhd                          ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Nova pasta/ula.vhd            ;         ;
+; subtratorNbits.vhd               ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Nova pasta/subtratorNbits.vhd ;         ;
+; somadorNbits.vhd                 ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Nova pasta/somadorNbits.vhd   ;         ;
+; fullSubtractor.vhd               ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Nova pasta/fullSubtractor.vhd ;         ;
+; fullAdder.vhd                    ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Nova pasta/fullAdder.vhd      ;         ;
+; ulaOperacoes.vhd                 ; yes             ; User VHDL File  ; C:/Users/Letícia/Desktop/Nova pasta/ulaOperacoes.vhd   ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                     ;
++--------------------------+--------------------------------------+
+; Resource                 ; Usage                                ;
++--------------------------+--------------------------------------+
+; I/O pins                 ; 117                                  ;
+; DSP block 9-bit elements ; 0                                    ;
+; Maximum fan-out node     ; ulaOperacoes:operacoesDaUla|Equal0~0 ;
+; Maximum fan-out          ; 38                                   ;
+; Total fan-out            ; 994                                  ;
+; Average fan-out          ; 2.05                                 ;
++--------------------------+--------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                         ;
++-----------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                      ; Library Name ;
++-----------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------+--------------+
+; |ula                                                      ; 250 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 117  ; 0            ; |ula                                                                                                     ; work         ;
+;    |ulaOperacoes:operacoesDaUla|                          ; 250 (159)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla                                                                         ; work         ;
+;       |somadorNbits:somador|                              ; 60 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador                                                    ; work         ;
+;          |fullAdder:\somador:10:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:10:componenteSomador            ; work         ;
+;          |fullAdder:\somador:11:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:11:componenteSomador            ; work         ;
+;          |fullAdder:\somador:12:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:12:componenteSomador            ; work         ;
+;          |fullAdder:\somador:13:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:13:componenteSomador            ; work         ;
+;          |fullAdder:\somador:14:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:14:componenteSomador            ; work         ;
+;          |fullAdder:\somador:15:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:15:componenteSomador            ; work         ;
+;          |fullAdder:\somador:16:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:16:componenteSomador            ; work         ;
+;          |fullAdder:\somador:17:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:17:componenteSomador            ; work         ;
+;          |fullAdder:\somador:18:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:18:componenteSomador            ; work         ;
+;          |fullAdder:\somador:19:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:19:componenteSomador            ; work         ;
+;          |fullAdder:\somador:1:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:1:componenteSomador             ; work         ;
+;          |fullAdder:\somador:20:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:20:componenteSomador            ; work         ;
+;          |fullAdder:\somador:21:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:21:componenteSomador            ; work         ;
+;          |fullAdder:\somador:22:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:22:componenteSomador            ; work         ;
+;          |fullAdder:\somador:23:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:23:componenteSomador            ; work         ;
+;          |fullAdder:\somador:24:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:24:componenteSomador            ; work         ;
+;          |fullAdder:\somador:25:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:25:componenteSomador            ; work         ;
+;          |fullAdder:\somador:26:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:26:componenteSomador            ; work         ;
+;          |fullAdder:\somador:27:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:27:componenteSomador            ; work         ;
+;          |fullAdder:\somador:28:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:28:componenteSomador            ; work         ;
+;          |fullAdder:\somador:29:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:29:componenteSomador            ; work         ;
+;          |fullAdder:\somador:2:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:2:componenteSomador             ; work         ;
+;          |fullAdder:\somador:30:componenteSomador|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:30:componenteSomador            ; work         ;
+;          |fullAdder:\somador:3:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:3:componenteSomador             ; work         ;
+;          |fullAdder:\somador:4:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:4:componenteSomador             ; work         ;
+;          |fullAdder:\somador:5:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:5:componenteSomador             ; work         ;
+;          |fullAdder:\somador:6:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:6:componenteSomador             ; work         ;
+;          |fullAdder:\somador:7:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:7:componenteSomador             ; work         ;
+;          |fullAdder:\somador:8:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:8:componenteSomador             ; work         ;
+;          |fullAdder:\somador:9:componenteSomador|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:9:componenteSomador             ; work         ;
+;       |subtratorNbits:subtrator|                          ; 31 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator                                                ; work         ;
+;          |fullSubtractor:\subtrator:10:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:10:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:11:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:11:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:12:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:12:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:13:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:13:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:14:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:14:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:15:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:15:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:16:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:16:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:17:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:17:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:18:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:18:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:19:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:19:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:1:componenteSomador|  ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:1:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:20:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:20:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:21:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:21:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:22:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:22:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:23:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:23:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:24:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:24:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:25:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:25:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:26:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:26:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:27:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:27:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:28:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:28:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:29:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:29:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:2:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:2:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:30:componenteSomador| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:30:componenteSomador ; work         ;
+;          |fullSubtractor:\subtrator:3:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:3:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:4:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:4:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:5:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:5:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:6:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:6:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:7:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:7:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:8:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:8:componenteSomador  ; work         ;
+;          |fullSubtractor:\subtrator:9:componenteSomador|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |ula|ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:9:componenteSomador  ; work         ;
++-----------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                         ;
++-----------------------------------------------------+----------------------------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal                          ; Free of Timing Hazards ;
++-----------------------------------------------------+----------------------------------------------+------------------------+
+; ulaOperacoes:operacoesDaUla|registradorR[0]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[1]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[2]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[3]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[4]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[5]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[6]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[7]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[8]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[9]         ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[10]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[11]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[12]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[13]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[14]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[15]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[16]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[17]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[18]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[19]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[20]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[21]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[22]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[23]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[24]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[25]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[26]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[27]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[28]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[29]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[30]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; ulaOperacoes:operacoesDaUla|registradorR[31]        ; ulaOperacoes:operacoesDaUla|registradorR[31] ; yes                    ;
+; Number of user-specified and inferred latches = 32  ;                                              ;                        ;
++-----------------------------------------------------+----------------------------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+; 6:1                ; 31 bits   ; 124 LEs       ; 124 LEs              ; 0 LEs                  ; No         ; |ula|ulaOperacoes:operacoesDaUla|registradorR[1] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ulaOperacoes:operacoesDaUla ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; tamanho        ; 32    ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ulaOperacoes:operacoesDaUla|somadorNbits:somador ;
++----------------+-------+----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                 ;
++----------------+-------+----------------------------------------------------------------------+
+; TAMANHO        ; 32    ; Signed Integer                                                       ;
++----------------+-------+----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator ;
++----------------+-------+--------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                     ;
++----------------+-------+--------------------------------------------------------------------------+
+; TAMANHO        ; 32    ; Signed Integer                                                           ;
++----------------+-------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:0:componenteSomador" ;
++------+-------+----------+------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                              ;
++------+-------+----------+------------------------------------------------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                                                                         ;
++------+-------+----------+------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:0:componenteSomador" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:03     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Apr 28 11:44:43 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ula -c ula
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
+    Info (12022): Found design unit 1: ula-ulaArch
+    Info (12023): Found entity 1: ula
+Info (12021): Found 2 design units, including 1 entities, in source file subtratornbits.vhd
+    Info (12022): Found design unit 1: subtratorNbits-subtratorNbitsArch
+    Info (12023): Found entity 1: subtratorNbits
+Info (12021): Found 2 design units, including 1 entities, in source file somadornbits.vhd
+    Info (12022): Found design unit 1: somadorNbits-somadorNbitsArch
+    Info (12023): Found entity 1: somadorNbits
+Info (12021): Found 2 design units, including 1 entities, in source file fullsubtractor.vhd
+    Info (12022): Found design unit 1: fullSubtractor-fullSubtractorArch
+    Info (12023): Found entity 1: fullSubtractor
+Info (12021): Found 2 design units, including 1 entities, in source file fulladder.vhd
+    Info (12022): Found design unit 1: fullAdder-fullAdderArch
+    Info (12023): Found entity 1: fullAdder
+Info (12021): Found 2 design units, including 1 entities, in source file ulaoperacoes.vhd
+    Info (12022): Found design unit 1: ulaOperacoes-ulaOperacoesArch
+    Info (12023): Found entity 1: ulaOperacoes
+Info (12127): Elaborating entity "ula" for the top level hierarchy
+Info (12128): Elaborating entity "ulaOperacoes" for hierarchy "ulaOperacoes:operacoesDaUla"
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(61): signal "SinalOverflowSoma" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(62): signal "SinalOverflowSoma" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(63): signal "resultadoSoma" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(65): signal "SinalOverflowSub" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(66): signal "SinalOverflowSub" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(67): signal "SinalnegativoSub" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(68): signal "resultadoSub" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(70): signal "registradorA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(70): signal "registradorB" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(72): signal "registradorA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(72): signal "registradorB" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(74): signal "registradorA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(74): signal "registradorB" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(76): signal "registradorA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ulaOperacoes.vhd(78): signal "registradorR" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at ulaOperacoes.vhd(53): inferring latch(es) for signal or variable "registradorR", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "registradorR[0]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[1]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[2]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[3]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[4]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[5]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[6]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[7]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[8]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[9]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[10]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[11]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[12]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[13]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[14]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[15]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[16]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[17]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[18]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[19]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[20]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[21]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[22]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[23]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[24]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[25]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[26]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[27]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[28]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[29]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[30]" at ulaOperacoes.vhd(53)
+Info (10041): Inferred latch for "registradorR[31]" at ulaOperacoes.vhd(53)
+Info (12128): Elaborating entity "somadorNbits" for hierarchy "ulaOperacoes:operacoesDaUla|somadorNbits:somador"
+Info (12128): Elaborating entity "fullAdder" for hierarchy "ulaOperacoes:operacoesDaUla|somadorNbits:somador|fullAdder:\somador:0:componenteSomador"
+Info (12128): Elaborating entity "subtratorNbits" for hierarchy "ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator"
+Info (12128): Elaborating entity "fullSubtractor" for hierarchy "ulaOperacoes:operacoesDaUla|subtratorNbits:subtrator|fullSubtractor:\subtrator:0:componenteSomador"
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[1] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[2] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[3] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[4] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[5] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[6] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[7] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[8] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[9] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[10] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[11] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[12] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[13] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[14] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[15] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[16] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[17] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[18] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[19] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[20] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[21] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[22] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[23] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[24] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[25] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[26] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[27] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[28] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[29] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[30] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Warning (13012): Latch ulaOperacoes:operacoesDaUla|registradorR[31] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal funct[0]
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 11 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "opcode[0]"
+    Warning (15610): No output dependent on input pin "opcode[1]"
+    Warning (15610): No output dependent on input pin "opcode[2]"
+    Warning (15610): No output dependent on input pin "opcode[3]"
+    Warning (15610): No output dependent on input pin "opcode[4]"
+    Warning (15610): No output dependent on input pin "opcode[5]"
+    Warning (15610): No output dependent on input pin "shamt[0]"
+    Warning (15610): No output dependent on input pin "shamt[1]"
+    Warning (15610): No output dependent on input pin "shamt[2]"
+    Warning (15610): No output dependent on input pin "shamt[3]"
+    Warning (15610): No output dependent on input pin "shamt[4]"
+Info (21057): Implemented 367 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 81 input pins
+    Info (21059): Implemented 36 output pins
+    Info (21061): Implemented 250 logic cells
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 93 warnings
+    Info: Peak virtual memory: 415 megabytes
+    Info: Processing ended: Wed Apr 28 11:44:51 2021
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:05
+
+

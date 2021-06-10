@@ -1,0 +1,295 @@
+m255
+K3
+13
+cModel Technology
+dD:\
+Ebancoregistrador
+Z0 w1621551972
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\TESTBENCH
+Z5 8C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\bancoRegistrador.vhd
+Z6 FC:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\bancoRegistrador.vhd
+l0
+L5
+V8DDfXg?VgiUh5fX9GMK8?2
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1621553227.998000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\bancoRegistrador.vhd|
+Z10 !s107 C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\bancoRegistrador.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 KRMDGEfZz?jeJ[4A4Td=Y0
+!i10b 1
+Abancoregistradorarch
+R1
+R2
+R3
+DEx4 work 16 bancoregistrador 0 22 8DDfXg?VgiUh5fX9GMK8?2
+l50
+L21
+VT[BOBc0MCb=amYT6ZS6lJ3
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 NS98XibGTm_A5UZN;h_Xh2
+!i10b 1
+Efulladder
+Z13 w1618880293
+R2
+R3
+R4
+Z14 8C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullAdder.vhd
+Z15 FC:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullAdder.vhd
+l0
+L4
+V>CLXmHo=FohUXHLHiHk962
+R7
+32
+Z16 !s108 1621553228.330000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullAdder.vhd|
+Z18 !s107 C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullAdder.vhd|
+R11
+R12
+!s100 Aj9Mh@of@fFZJ_B3<9@G]0
+!i10b 1
+Afulladderarch
+R2
+R3
+DEx4 work 9 fulladder 0 22 >CLXmHo=FohUXHLHiHk962
+l13
+L12
+V;Ib<ePLj_3U<:@:b=VD8P0
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 3fid9S;SmB8`X2h^LB=O11
+!i10b 1
+Efullsubtractor
+Z19 w1618880311
+R2
+R3
+R4
+Z20 8C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullSubtractor.vhd
+Z21 FC:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullSubtractor.vhd
+l0
+L3
+V=^<ILllhna[l[dO7SMKAN0
+R7
+32
+Z22 !s108 1621553228.745000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullSubtractor.vhd|
+Z24 !s107 C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/fullSubtractor.vhd|
+R11
+R12
+!s100 gD>ofTgIG0]5eIC:?@g3H1
+!i10b 1
+Afullsubtractorarch
+R2
+R3
+DEx4 work 14 fullsubtractor 0 22 =^<ILllhna[l[dO7SMKAN0
+l13
+L12
+VGhC<YWWUz6@hnX8hLA8iH3
+R7
+32
+R22
+R23
+R24
+R11
+R12
+!s100 mznzETSYRAgWV[h[W=UP;3
+!i10b 1
+Eregistrador
+Z25 w1620858964
+R2
+R3
+R4
+Z26 8C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/registrador.vhd
+Z27 FC:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/registrador.vhd
+l0
+L3
+VE5;IkH?9aaM_f`;o<k=aC0
+R7
+32
+Z28 !s108 1621553229.621000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/registrador.vhd|
+Z30 !s107 C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/registrador.vhd|
+R11
+R12
+!s100 a`57WZQZ>P<U927bKSPPz2
+!i10b 1
+Aregistradorarch
+R2
+R3
+DEx4 work 11 registrador 0 22 E5;IkH?9aaM_f`;o<k=aC0
+l14
+L13
+Vdf3b8n=g3ASbL3LzlEaGK0
+R7
+32
+R28
+R29
+R30
+R11
+R12
+!s100 0DYB]K3]bOMWo`j:`[lf@2
+!i10b 1
+Esomadornbits
+Z31 w1620861636
+R2
+R3
+R4
+Z32 8C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\somadorNbits.vhd
+Z33 FC:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\somadorNbits.vhd
+l0
+L3
+VXUb^0@:4[W8cFV4Ymh4zb2
+R7
+32
+Z34 !s108 1621553230.029000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\somadorNbits.vhd|
+Z36 !s107 C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\somadorNbits.vhd|
+R11
+R12
+!s100 @GYT1[X`k4e`>3SHnRlJ41
+!i10b 1
+Asomadornbitsarch
+R2
+R3
+DEx4 work 12 somadornbits 0 22 XUb^0@:4[W8cFV4Ymh4zb2
+l23
+L13
+VLcmnd_Na>EH?HQS4CJE@g2
+R7
+32
+R34
+R35
+R36
+R11
+R12
+!s100 ;B?92[;:QcfNmih@UOWXK3
+!i10b 1
+Esubtratornbits
+Z37 w1618880379
+R2
+R3
+R4
+Z38 8C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/subtratorNbits.vhd
+Z39 FC:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/subtratorNbits.vhd
+l0
+L3
+VR@@<Z@l2mThII`05Jm^Lf0
+R7
+32
+Z40 !s108 1621553230.449000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/subtratorNbits.vhd|
+Z42 !s107 C:/Users/Letícia/Desktop/Leticia_Ula_BancoRegistradores/subtratorNbits.vhd|
+R11
+R12
+!s100 oo5^3H6jR4Ka366j_i3_M2
+!i10b 1
+Asubtratornbitsarch
+R2
+R3
+DEx4 work 14 subtratornbits 0 22 R@@<Z@l2mThII`05Jm^Lf0
+l23
+L12
+VG7]T^cOGzi=17KDYn_Rid0
+R7
+32
+R40
+R41
+R42
+R11
+R12
+!s100 e7d7]j`id6:6eHY9o2dh30
+!i10b 1
+Etopulatestbench
+Z43 w1621553132
+Z44 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z45 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R1
+R2
+R3
+R4
+Z46 8C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\topUlaTestbench.vhd
+Z47 FC:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\topUlaTestbench.vhd
+l0
+L6
+VHR`c4:S<5bejRg_<UEn[D2
+R7
+32
+Z48 !s108 1621553230.842000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\topUlaTestbench.vhd|
+Z50 !s107 C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\topUlaTestbench.vhd|
+R11
+R12
+!s100 [[@aiTko<KW;g7agA[D7k2
+!i10b 1
+Atopulatestbencharch
+R44
+R45
+R1
+R2
+R3
+DEx4 work 15 topulatestbench 0 22 HR`c4:S<5bejRg_<UEn[D2
+l32
+L9
+VW:[:BLJ7zZPCV_VWAMFzN2
+R7
+32
+R48
+R49
+R50
+R11
+R12
+!s100 PIKni=eCjaY@X^Yo]RJTG3
+!i10b 1
+Eulaoperacoes
+Z51 w1621551851
+R1
+R2
+R3
+R4
+Z52 8C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\ulaOperacoes.vhd
+Z53 FC:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\ulaOperacoes.vhd
+l0
+L5
+V@miFm3AkMk?02OobY7<J^2
+!s100 CFCSG=P;G?khYg>Y_dZ>[3
+R7
+32
+!i10b 1
+Z54 !s108 1621553231.292000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\ulaOperacoes.vhd|
+Z56 !s107 C:\Users\Letícia\Desktop\Leticia_Ula_BancoRegistradores\ulaOperacoes.vhd|
+R11
+R12
+Aulaoperacoesarch
+R1
+R2
+R3
+DEx4 work 12 ulaoperacoes 0 22 @miFm3AkMk?02OobY7<J^2
+l38
+L16
+VVcX9kk[1Q[C>UoM>Ba^eI1
+!s100 gFkW_igC>:2US1?ZkEDK`0
+R7
+32
+!i10b 1
+R54
+R55
+R56
+R11
+R12
