@@ -1,0 +1,5871 @@
+|hadamard
+W0[0] => barreiraTemporal:barreiraInicial.entraBarreira0[0]
+W0[1] => barreiraTemporal:barreiraInicial.entraBarreira0[1]
+W0[2] => barreiraTemporal:barreiraInicial.entraBarreira0[2]
+W0[3] => barreiraTemporal:barreiraInicial.entraBarreira0[3]
+W1[0] => barreiraTemporal:barreiraInicial.entraBarreira1[0]
+W1[1] => barreiraTemporal:barreiraInicial.entraBarreira1[1]
+W1[2] => barreiraTemporal:barreiraInicial.entraBarreira1[2]
+W1[3] => barreiraTemporal:barreiraInicial.entraBarreira1[3]
+W2[0] => barreiraTemporal:barreiraInicial.entraBarreira2[0]
+W2[1] => barreiraTemporal:barreiraInicial.entraBarreira2[1]
+W2[2] => barreiraTemporal:barreiraInicial.entraBarreira2[2]
+W2[3] => barreiraTemporal:barreiraInicial.entraBarreira2[3]
+W3[0] => barreiraTemporal:barreiraInicial.entraBarreira3[0]
+W3[1] => barreiraTemporal:barreiraInicial.entraBarreira3[1]
+W3[2] => barreiraTemporal:barreiraInicial.entraBarreira3[2]
+W3[3] => barreiraTemporal:barreiraInicial.entraBarreira3[3]
+W4[0] => barreiraTemporal:barreiraInicial.entraBarreira4[0]
+W4[1] => barreiraTemporal:barreiraInicial.entraBarreira4[1]
+W4[2] => barreiraTemporal:barreiraInicial.entraBarreira4[2]
+W4[3] => barreiraTemporal:barreiraInicial.entraBarreira4[3]
+W5[0] => barreiraTemporal:barreiraInicial.entraBarreira5[0]
+W5[1] => barreiraTemporal:barreiraInicial.entraBarreira5[1]
+W5[2] => barreiraTemporal:barreiraInicial.entraBarreira5[2]
+W5[3] => barreiraTemporal:barreiraInicial.entraBarreira5[3]
+W6[0] => barreiraTemporal:barreiraInicial.entraBarreira6[0]
+W6[1] => barreiraTemporal:barreiraInicial.entraBarreira6[1]
+W6[2] => barreiraTemporal:barreiraInicial.entraBarreira6[2]
+W6[3] => barreiraTemporal:barreiraInicial.entraBarreira6[3]
+W7[0] => barreiraTemporal:barreiraInicial.entraBarreira7[0]
+W7[1] => barreiraTemporal:barreiraInicial.entraBarreira7[1]
+W7[2] => barreiraTemporal:barreiraInicial.entraBarreira7[2]
+W7[3] => barreiraTemporal:barreiraInicial.entraBarreira7[3]
+W8[0] => barreiraTemporal:barreiraInicial.entraBarreira8[0]
+W8[1] => barreiraTemporal:barreiraInicial.entraBarreira8[1]
+W8[2] => barreiraTemporal:barreiraInicial.entraBarreira8[2]
+W8[3] => barreiraTemporal:barreiraInicial.entraBarreira8[3]
+W9[0] => barreiraTemporal:barreiraInicial.entraBarreira9[0]
+W9[1] => barreiraTemporal:barreiraInicial.entraBarreira9[1]
+W9[2] => barreiraTemporal:barreiraInicial.entraBarreira9[2]
+W9[3] => barreiraTemporal:barreiraInicial.entraBarreira9[3]
+W10[0] => barreiraTemporal:barreiraInicial.entraBarreira10[0]
+W10[1] => barreiraTemporal:barreiraInicial.entraBarreira10[1]
+W10[2] => barreiraTemporal:barreiraInicial.entraBarreira10[2]
+W10[3] => barreiraTemporal:barreiraInicial.entraBarreira10[3]
+W11[0] => barreiraTemporal:barreiraInicial.entraBarreira11[0]
+W11[1] => barreiraTemporal:barreiraInicial.entraBarreira11[1]
+W11[2] => barreiraTemporal:barreiraInicial.entraBarreira11[2]
+W11[3] => barreiraTemporal:barreiraInicial.entraBarreira11[3]
+W12[0] => barreiraTemporal:barreiraInicial.entraBarreira12[0]
+W12[1] => barreiraTemporal:barreiraInicial.entraBarreira12[1]
+W12[2] => barreiraTemporal:barreiraInicial.entraBarreira12[2]
+W12[3] => barreiraTemporal:barreiraInicial.entraBarreira12[3]
+W13[0] => barreiraTemporal:barreiraInicial.entraBarreira13[0]
+W13[1] => barreiraTemporal:barreiraInicial.entraBarreira13[1]
+W13[2] => barreiraTemporal:barreiraInicial.entraBarreira13[2]
+W13[3] => barreiraTemporal:barreiraInicial.entraBarreira13[3]
+W14[0] => barreiraTemporal:barreiraInicial.entraBarreira14[0]
+W14[1] => barreiraTemporal:barreiraInicial.entraBarreira14[1]
+W14[2] => barreiraTemporal:barreiraInicial.entraBarreira14[2]
+W14[3] => barreiraTemporal:barreiraInicial.entraBarreira14[3]
+W15[0] => barreiraTemporal:barreiraInicial.entraBarreira15[0]
+W15[1] => barreiraTemporal:barreiraInicial.entraBarreira15[1]
+W15[2] => barreiraTemporal:barreiraInicial.entraBarreira15[2]
+W15[3] => barreiraTemporal:barreiraInicial.entraBarreira15[3]
+clock => barreiraTemporal:barreiraInicial.clock
+clock => barreiraTemporal:barreiraemB.clock
+reset => barreiraTemporal:barreiraInicial.reset
+reset => barreiraTemporal:barreiraemB.reset
+enable => barreiraTemporal:barreiraInicial.enable
+enable => barreiraTemporal:barreiraemB.enable
+S0[0] <= somadorNbits:componenteSomador24.resultadoSoma[1]
+S0[1] <= somadorNbits:componenteSomador24.resultadoSoma[2]
+S0[2] <= somadorNbits:componenteSomador24.resultadoSoma[3]
+S0[3] <= somadorNbits:componenteSomador24.resultadoSoma[3]
+S1[0] <= subtratorNbits:componenteSubtrator24.resultadoSub[1]
+S1[1] <= subtratorNbits:componenteSubtrator24.resultadoSub[2]
+S1[2] <= subtratorNbits:componenteSubtrator24.resultadoSub[3]
+S1[3] <= subtratorNbits:componenteSubtrator24.resultadoSub[3]
+S2[0] <= subtratorNbits:componenteSubtrator25.resultadoSub[1]
+S2[1] <= subtratorNbits:componenteSubtrator25.resultadoSub[2]
+S2[2] <= subtratorNbits:componenteSubtrator25.resultadoSub[3]
+S2[3] <= subtratorNbits:componenteSubtrator25.resultadoSub[3]
+S3[0] <= somadorNbits:componenteSomador25.resultadoSoma[1]
+S3[1] <= somadorNbits:componenteSomador25.resultadoSoma[2]
+S3[2] <= somadorNbits:componenteSomador25.resultadoSoma[3]
+S3[3] <= somadorNbits:componenteSomador25.resultadoSoma[3]
+S4[0] <= somadorNbits:componenteSomador26.resultadoSoma[1]
+S4[1] <= somadorNbits:componenteSomador26.resultadoSoma[2]
+S4[2] <= somadorNbits:componenteSomador26.resultadoSoma[3]
+S4[3] <= somadorNbits:componenteSomador26.resultadoSoma[3]
+S5[0] <= subtratorNbits:componenteSubtrator26.resultadoSub[1]
+S5[1] <= subtratorNbits:componenteSubtrator26.resultadoSub[2]
+S5[2] <= subtratorNbits:componenteSubtrator26.resultadoSub[3]
+S5[3] <= subtratorNbits:componenteSubtrator26.resultadoSub[3]
+S6[0] <= subtratorNbits:componenteSubtrator27.resultadoSub[1]
+S6[1] <= subtratorNbits:componenteSubtrator27.resultadoSub[2]
+S6[2] <= subtratorNbits:componenteSubtrator27.resultadoSub[3]
+S6[3] <= subtratorNbits:componenteSubtrator27.resultadoSub[3]
+S7[0] <= somadorNbits:componenteSomador27.resultadoSoma[1]
+S7[1] <= somadorNbits:componenteSomador27.resultadoSoma[2]
+S7[2] <= somadorNbits:componenteSomador27.resultadoSoma[3]
+S7[3] <= somadorNbits:componenteSomador27.resultadoSoma[3]
+S8[0] <= somadorNbits:componenteSomador28.resultadoSoma[1]
+S8[1] <= somadorNbits:componenteSomador28.resultadoSoma[2]
+S8[2] <= somadorNbits:componenteSomador28.resultadoSoma[3]
+S8[3] <= somadorNbits:componenteSomador28.resultadoSoma[3]
+S9[0] <= subtratorNbits:componenteSubtrator28.resultadoSub[1]
+S9[1] <= subtratorNbits:componenteSubtrator28.resultadoSub[2]
+S9[2] <= subtratorNbits:componenteSubtrator28.resultadoSub[3]
+S9[3] <= subtratorNbits:componenteSubtrator28.resultadoSub[3]
+S10[0] <= subtratorNbits:componenteSubtrator29.resultadoSub[1]
+S10[1] <= subtratorNbits:componenteSubtrator29.resultadoSub[2]
+S10[2] <= subtratorNbits:componenteSubtrator29.resultadoSub[3]
+S10[3] <= subtratorNbits:componenteSubtrator29.resultadoSub[3]
+S11[0] <= somadorNbits:componenteSomador29.resultadoSoma[1]
+S11[1] <= somadorNbits:componenteSomador29.resultadoSoma[2]
+S11[2] <= somadorNbits:componenteSomador29.resultadoSoma[3]
+S11[3] <= somadorNbits:componenteSomador29.resultadoSoma[3]
+S12[0] <= somadorNbits:componenteSomador30.resultadoSoma[1]
+S12[1] <= somadorNbits:componenteSomador30.resultadoSoma[2]
+S12[2] <= somadorNbits:componenteSomador30.resultadoSoma[3]
+S12[3] <= somadorNbits:componenteSomador30.resultadoSoma[3]
+S13[0] <= subtratorNbits:componenteSubtrator30.resultadoSub[1]
+S13[1] <= subtratorNbits:componenteSubtrator30.resultadoSub[2]
+S13[2] <= subtratorNbits:componenteSubtrator30.resultadoSub[3]
+S13[3] <= subtratorNbits:componenteSubtrator30.resultadoSub[3]
+S14[0] <= subtratorNbits:componenteSubtrator31.resultadoSub[1]
+S14[1] <= subtratorNbits:componenteSubtrator31.resultadoSub[2]
+S14[2] <= subtratorNbits:componenteSubtrator31.resultadoSub[3]
+S14[3] <= subtratorNbits:componenteSubtrator31.resultadoSub[3]
+S15[0] <= somadorNbits:componenteSomador31.resultadoSoma[1]
+S15[1] <= somadorNbits:componenteSomador31.resultadoSoma[2]
+S15[2] <= somadorNbits:componenteSomador31.resultadoSoma[3]
+S15[3] <= somadorNbits:componenteSomador31.resultadoSoma[3]
+
+
+|hadamard|barreiraTemporal:barreiraInicial
+entraBarreira0[0] => registrador:reg0.d[0]
+entraBarreira0[1] => registrador:reg0.d[1]
+entraBarreira0[2] => registrador:reg0.d[2]
+entraBarreira0[3] => registrador:reg0.d[3]
+entraBarreira1[0] => registrador:reg1.d[0]
+entraBarreira1[1] => registrador:reg1.d[1]
+entraBarreira1[2] => registrador:reg1.d[2]
+entraBarreira1[3] => registrador:reg1.d[3]
+entraBarreira2[0] => registrador:reg2.d[0]
+entraBarreira2[1] => registrador:reg2.d[1]
+entraBarreira2[2] => registrador:reg2.d[2]
+entraBarreira2[3] => registrador:reg2.d[3]
+entraBarreira3[0] => registrador:reg3.d[0]
+entraBarreira3[1] => registrador:reg3.d[1]
+entraBarreira3[2] => registrador:reg3.d[2]
+entraBarreira3[3] => registrador:reg3.d[3]
+entraBarreira4[0] => registrador:reg4.d[0]
+entraBarreira4[1] => registrador:reg4.d[1]
+entraBarreira4[2] => registrador:reg4.d[2]
+entraBarreira4[3] => registrador:reg4.d[3]
+entraBarreira5[0] => registrador:reg5.d[0]
+entraBarreira5[1] => registrador:reg5.d[1]
+entraBarreira5[2] => registrador:reg5.d[2]
+entraBarreira5[3] => registrador:reg5.d[3]
+entraBarreira6[0] => registrador:reg6.d[0]
+entraBarreira6[1] => registrador:reg6.d[1]
+entraBarreira6[2] => registrador:reg6.d[2]
+entraBarreira6[3] => registrador:reg6.d[3]
+entraBarreira7[0] => registrador:reg7.d[0]
+entraBarreira7[1] => registrador:reg7.d[1]
+entraBarreira7[2] => registrador:reg7.d[2]
+entraBarreira7[3] => registrador:reg7.d[3]
+entraBarreira8[0] => registrador:reg8.d[0]
+entraBarreira8[1] => registrador:reg8.d[1]
+entraBarreira8[2] => registrador:reg8.d[2]
+entraBarreira8[3] => registrador:reg8.d[3]
+entraBarreira9[0] => registrador:reg9.d[0]
+entraBarreira9[1] => registrador:reg9.d[1]
+entraBarreira9[2] => registrador:reg9.d[2]
+entraBarreira9[3] => registrador:reg9.d[3]
+entraBarreira10[0] => registrador:reg10.d[0]
+entraBarreira10[1] => registrador:reg10.d[1]
+entraBarreira10[2] => registrador:reg10.d[2]
+entraBarreira10[3] => registrador:reg10.d[3]
+entraBarreira11[0] => registrador:reg11.d[0]
+entraBarreira11[1] => registrador:reg11.d[1]
+entraBarreira11[2] => registrador:reg11.d[2]
+entraBarreira11[3] => registrador:reg11.d[3]
+entraBarreira12[0] => registrador:reg12.d[0]
+entraBarreira12[1] => registrador:reg12.d[1]
+entraBarreira12[2] => registrador:reg12.d[2]
+entraBarreira12[3] => registrador:reg12.d[3]
+entraBarreira13[0] => registrador:reg13.d[0]
+entraBarreira13[1] => registrador:reg13.d[1]
+entraBarreira13[2] => registrador:reg13.d[2]
+entraBarreira13[3] => registrador:reg13.d[3]
+entraBarreira14[0] => registrador:reg14.d[0]
+entraBarreira14[1] => registrador:reg14.d[1]
+entraBarreira14[2] => registrador:reg14.d[2]
+entraBarreira14[3] => registrador:reg14.d[3]
+entraBarreira15[0] => registrador:reg15.d[0]
+entraBarreira15[1] => registrador:reg15.d[1]
+entraBarreira15[2] => registrador:reg15.d[2]
+entraBarreira15[3] => registrador:reg15.d[3]
+clock => registrador:reg0.clock
+clock => registrador:reg1.clock
+clock => registrador:reg2.clock
+clock => registrador:reg3.clock
+clock => registrador:reg4.clock
+clock => registrador:reg5.clock
+clock => registrador:reg6.clock
+clock => registrador:reg7.clock
+clock => registrador:reg8.clock
+clock => registrador:reg9.clock
+clock => registrador:reg10.clock
+clock => registrador:reg11.clock
+clock => registrador:reg12.clock
+clock => registrador:reg13.clock
+clock => registrador:reg14.clock
+clock => registrador:reg15.clock
+reset => registrador:reg0.reset
+reset => registrador:reg1.reset
+reset => registrador:reg2.reset
+reset => registrador:reg3.reset
+reset => registrador:reg4.reset
+reset => registrador:reg5.reset
+reset => registrador:reg6.reset
+reset => registrador:reg7.reset
+reset => registrador:reg8.reset
+reset => registrador:reg9.reset
+reset => registrador:reg10.reset
+reset => registrador:reg11.reset
+reset => registrador:reg12.reset
+reset => registrador:reg13.reset
+reset => registrador:reg14.reset
+reset => registrador:reg15.reset
+enable => registrador:reg0.enable
+enable => registrador:reg1.enable
+enable => registrador:reg2.enable
+enable => registrador:reg3.enable
+enable => registrador:reg4.enable
+enable => registrador:reg5.enable
+enable => registrador:reg6.enable
+enable => registrador:reg7.enable
+enable => registrador:reg8.enable
+enable => registrador:reg9.enable
+enable => registrador:reg10.enable
+enable => registrador:reg11.enable
+enable => registrador:reg12.enable
+enable => registrador:reg13.enable
+enable => registrador:reg14.enable
+enable => registrador:reg15.enable
+saiBarreira0[0] <= registrador:reg0.q[0]
+saiBarreira0[1] <= registrador:reg0.q[1]
+saiBarreira0[2] <= registrador:reg0.q[2]
+saiBarreira0[3] <= registrador:reg0.q[3]
+saiBarreira1[0] <= registrador:reg1.q[0]
+saiBarreira1[1] <= registrador:reg1.q[1]
+saiBarreira1[2] <= registrador:reg1.q[2]
+saiBarreira1[3] <= registrador:reg1.q[3]
+saiBarreira2[0] <= registrador:reg2.q[0]
+saiBarreira2[1] <= registrador:reg2.q[1]
+saiBarreira2[2] <= registrador:reg2.q[2]
+saiBarreira2[3] <= registrador:reg2.q[3]
+saiBarreira3[0] <= registrador:reg3.q[0]
+saiBarreira3[1] <= registrador:reg3.q[1]
+saiBarreira3[2] <= registrador:reg3.q[2]
+saiBarreira3[3] <= registrador:reg3.q[3]
+saiBarreira4[0] <= registrador:reg4.q[0]
+saiBarreira4[1] <= registrador:reg4.q[1]
+saiBarreira4[2] <= registrador:reg4.q[2]
+saiBarreira4[3] <= registrador:reg4.q[3]
+saiBarreira5[0] <= registrador:reg5.q[0]
+saiBarreira5[1] <= registrador:reg5.q[1]
+saiBarreira5[2] <= registrador:reg5.q[2]
+saiBarreira5[3] <= registrador:reg5.q[3]
+saiBarreira6[0] <= registrador:reg6.q[0]
+saiBarreira6[1] <= registrador:reg6.q[1]
+saiBarreira6[2] <= registrador:reg6.q[2]
+saiBarreira6[3] <= registrador:reg6.q[3]
+saiBarreira7[0] <= registrador:reg7.q[0]
+saiBarreira7[1] <= registrador:reg7.q[1]
+saiBarreira7[2] <= registrador:reg7.q[2]
+saiBarreira7[3] <= registrador:reg7.q[3]
+saiBarreira8[0] <= registrador:reg8.q[0]
+saiBarreira8[1] <= registrador:reg8.q[1]
+saiBarreira8[2] <= registrador:reg8.q[2]
+saiBarreira8[3] <= registrador:reg8.q[3]
+saiBarreira9[0] <= registrador:reg9.q[0]
+saiBarreira9[1] <= registrador:reg9.q[1]
+saiBarreira9[2] <= registrador:reg9.q[2]
+saiBarreira9[3] <= registrador:reg9.q[3]
+saiBarreira10[0] <= registrador:reg10.q[0]
+saiBarreira10[1] <= registrador:reg10.q[1]
+saiBarreira10[2] <= registrador:reg10.q[2]
+saiBarreira10[3] <= registrador:reg10.q[3]
+saiBarreira11[0] <= registrador:reg11.q[0]
+saiBarreira11[1] <= registrador:reg11.q[1]
+saiBarreira11[2] <= registrador:reg11.q[2]
+saiBarreira11[3] <= registrador:reg11.q[3]
+saiBarreira12[0] <= registrador:reg12.q[0]
+saiBarreira12[1] <= registrador:reg12.q[1]
+saiBarreira12[2] <= registrador:reg12.q[2]
+saiBarreira12[3] <= registrador:reg12.q[3]
+saiBarreira13[0] <= registrador:reg13.q[0]
+saiBarreira13[1] <= registrador:reg13.q[1]
+saiBarreira13[2] <= registrador:reg13.q[2]
+saiBarreira13[3] <= registrador:reg13.q[3]
+saiBarreira14[0] <= registrador:reg14.q[0]
+saiBarreira14[1] <= registrador:reg14.q[1]
+saiBarreira14[2] <= registrador:reg14.q[2]
+saiBarreira14[3] <= registrador:reg14.q[3]
+saiBarreira15[0] <= registrador:reg15.q[0]
+saiBarreira15[1] <= registrador:reg15.q[1]
+saiBarreira15[2] <= registrador:reg15.q[2]
+saiBarreira15[3] <= registrador:reg15.q[3]
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg0
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg1
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg2
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg3
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg4
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg5
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg6
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg7
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg8
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg9
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg10
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg11
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg12
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg13
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg14
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraInicial|registrador:reg15
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador1
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador1|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador1|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador1|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador1|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador2
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador2|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador2|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador2|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador2|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador3
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador3|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador3|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador3|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador3|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador4
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador4|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador4|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador4|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador4|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador5
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador5|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador5|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador5|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador5|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador6
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador6|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador6|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador6|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador6|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador7
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador7|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador7|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador7|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador7|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator1
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator1|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator1|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator1|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator1|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator2
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator2|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator2|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator2|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator2|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator3
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator3|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator3|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator3|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator3|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator4
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator4|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator4|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator4|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator4|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator5
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator5|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator5|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator5|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator5|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator6
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator6|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator6|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator6|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator6|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator7
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator7|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator7|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator7|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator7|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador8
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador8|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador8|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador8|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador8|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador9
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador9|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador9|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador9|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador9|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador10
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador10|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador10|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador10|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador10|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador11
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador11|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador11|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador11|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador11|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador12
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador12|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador12|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador12|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador12|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador13
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador13|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador13|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador13|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador13|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador14
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador14|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador14|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador14|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador14|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador15
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador15|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador15|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador15|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador15|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator8
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator8|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator8|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator8|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator8|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator9
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator9|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator9|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator9|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator9|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator10
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator10|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator10|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator10|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator10|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator11
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator11|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator11|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator11|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator11|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator12
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator12|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator12|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator12|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator12|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator13
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator13|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator13|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator13|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator13|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator14
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator14|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator14|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator14|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator14|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator15
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator15|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator15|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator15|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator15|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB
+entraBarreira0[0] => registrador:reg0.d[0]
+entraBarreira0[1] => registrador:reg0.d[1]
+entraBarreira0[2] => registrador:reg0.d[2]
+entraBarreira0[3] => registrador:reg0.d[3]
+entraBarreira1[0] => registrador:reg1.d[0]
+entraBarreira1[1] => registrador:reg1.d[1]
+entraBarreira1[2] => registrador:reg1.d[2]
+entraBarreira1[3] => registrador:reg1.d[3]
+entraBarreira2[0] => registrador:reg2.d[0]
+entraBarreira2[1] => registrador:reg2.d[1]
+entraBarreira2[2] => registrador:reg2.d[2]
+entraBarreira2[3] => registrador:reg2.d[3]
+entraBarreira3[0] => registrador:reg3.d[0]
+entraBarreira3[1] => registrador:reg3.d[1]
+entraBarreira3[2] => registrador:reg3.d[2]
+entraBarreira3[3] => registrador:reg3.d[3]
+entraBarreira4[0] => registrador:reg4.d[0]
+entraBarreira4[1] => registrador:reg4.d[1]
+entraBarreira4[2] => registrador:reg4.d[2]
+entraBarreira4[3] => registrador:reg4.d[3]
+entraBarreira5[0] => registrador:reg5.d[0]
+entraBarreira5[1] => registrador:reg5.d[1]
+entraBarreira5[2] => registrador:reg5.d[2]
+entraBarreira5[3] => registrador:reg5.d[3]
+entraBarreira6[0] => registrador:reg6.d[0]
+entraBarreira6[1] => registrador:reg6.d[1]
+entraBarreira6[2] => registrador:reg6.d[2]
+entraBarreira6[3] => registrador:reg6.d[3]
+entraBarreira7[0] => registrador:reg7.d[0]
+entraBarreira7[1] => registrador:reg7.d[1]
+entraBarreira7[2] => registrador:reg7.d[2]
+entraBarreira7[3] => registrador:reg7.d[3]
+entraBarreira8[0] => registrador:reg8.d[0]
+entraBarreira8[1] => registrador:reg8.d[1]
+entraBarreira8[2] => registrador:reg8.d[2]
+entraBarreira8[3] => registrador:reg8.d[3]
+entraBarreira9[0] => registrador:reg9.d[0]
+entraBarreira9[1] => registrador:reg9.d[1]
+entraBarreira9[2] => registrador:reg9.d[2]
+entraBarreira9[3] => registrador:reg9.d[3]
+entraBarreira10[0] => registrador:reg10.d[0]
+entraBarreira10[1] => registrador:reg10.d[1]
+entraBarreira10[2] => registrador:reg10.d[2]
+entraBarreira10[3] => registrador:reg10.d[3]
+entraBarreira11[0] => registrador:reg11.d[0]
+entraBarreira11[1] => registrador:reg11.d[1]
+entraBarreira11[2] => registrador:reg11.d[2]
+entraBarreira11[3] => registrador:reg11.d[3]
+entraBarreira12[0] => registrador:reg12.d[0]
+entraBarreira12[1] => registrador:reg12.d[1]
+entraBarreira12[2] => registrador:reg12.d[2]
+entraBarreira12[3] => registrador:reg12.d[3]
+entraBarreira13[0] => registrador:reg13.d[0]
+entraBarreira13[1] => registrador:reg13.d[1]
+entraBarreira13[2] => registrador:reg13.d[2]
+entraBarreira13[3] => registrador:reg13.d[3]
+entraBarreira14[0] => registrador:reg14.d[0]
+entraBarreira14[1] => registrador:reg14.d[1]
+entraBarreira14[2] => registrador:reg14.d[2]
+entraBarreira14[3] => registrador:reg14.d[3]
+entraBarreira15[0] => registrador:reg15.d[0]
+entraBarreira15[1] => registrador:reg15.d[1]
+entraBarreira15[2] => registrador:reg15.d[2]
+entraBarreira15[3] => registrador:reg15.d[3]
+clock => registrador:reg0.clock
+clock => registrador:reg1.clock
+clock => registrador:reg2.clock
+clock => registrador:reg3.clock
+clock => registrador:reg4.clock
+clock => registrador:reg5.clock
+clock => registrador:reg6.clock
+clock => registrador:reg7.clock
+clock => registrador:reg8.clock
+clock => registrador:reg9.clock
+clock => registrador:reg10.clock
+clock => registrador:reg11.clock
+clock => registrador:reg12.clock
+clock => registrador:reg13.clock
+clock => registrador:reg14.clock
+clock => registrador:reg15.clock
+reset => registrador:reg0.reset
+reset => registrador:reg1.reset
+reset => registrador:reg2.reset
+reset => registrador:reg3.reset
+reset => registrador:reg4.reset
+reset => registrador:reg5.reset
+reset => registrador:reg6.reset
+reset => registrador:reg7.reset
+reset => registrador:reg8.reset
+reset => registrador:reg9.reset
+reset => registrador:reg10.reset
+reset => registrador:reg11.reset
+reset => registrador:reg12.reset
+reset => registrador:reg13.reset
+reset => registrador:reg14.reset
+reset => registrador:reg15.reset
+enable => registrador:reg0.enable
+enable => registrador:reg1.enable
+enable => registrador:reg2.enable
+enable => registrador:reg3.enable
+enable => registrador:reg4.enable
+enable => registrador:reg5.enable
+enable => registrador:reg6.enable
+enable => registrador:reg7.enable
+enable => registrador:reg8.enable
+enable => registrador:reg9.enable
+enable => registrador:reg10.enable
+enable => registrador:reg11.enable
+enable => registrador:reg12.enable
+enable => registrador:reg13.enable
+enable => registrador:reg14.enable
+enable => registrador:reg15.enable
+saiBarreira0[0] <= registrador:reg0.q[0]
+saiBarreira0[1] <= registrador:reg0.q[1]
+saiBarreira0[2] <= registrador:reg0.q[2]
+saiBarreira0[3] <= registrador:reg0.q[3]
+saiBarreira1[0] <= registrador:reg1.q[0]
+saiBarreira1[1] <= registrador:reg1.q[1]
+saiBarreira1[2] <= registrador:reg1.q[2]
+saiBarreira1[3] <= registrador:reg1.q[3]
+saiBarreira2[0] <= registrador:reg2.q[0]
+saiBarreira2[1] <= registrador:reg2.q[1]
+saiBarreira2[2] <= registrador:reg2.q[2]
+saiBarreira2[3] <= registrador:reg2.q[3]
+saiBarreira3[0] <= registrador:reg3.q[0]
+saiBarreira3[1] <= registrador:reg3.q[1]
+saiBarreira3[2] <= registrador:reg3.q[2]
+saiBarreira3[3] <= registrador:reg3.q[3]
+saiBarreira4[0] <= registrador:reg4.q[0]
+saiBarreira4[1] <= registrador:reg4.q[1]
+saiBarreira4[2] <= registrador:reg4.q[2]
+saiBarreira4[3] <= registrador:reg4.q[3]
+saiBarreira5[0] <= registrador:reg5.q[0]
+saiBarreira5[1] <= registrador:reg5.q[1]
+saiBarreira5[2] <= registrador:reg5.q[2]
+saiBarreira5[3] <= registrador:reg5.q[3]
+saiBarreira6[0] <= registrador:reg6.q[0]
+saiBarreira6[1] <= registrador:reg6.q[1]
+saiBarreira6[2] <= registrador:reg6.q[2]
+saiBarreira6[3] <= registrador:reg6.q[3]
+saiBarreira7[0] <= registrador:reg7.q[0]
+saiBarreira7[1] <= registrador:reg7.q[1]
+saiBarreira7[2] <= registrador:reg7.q[2]
+saiBarreira7[3] <= registrador:reg7.q[3]
+saiBarreira8[0] <= registrador:reg8.q[0]
+saiBarreira8[1] <= registrador:reg8.q[1]
+saiBarreira8[2] <= registrador:reg8.q[2]
+saiBarreira8[3] <= registrador:reg8.q[3]
+saiBarreira9[0] <= registrador:reg9.q[0]
+saiBarreira9[1] <= registrador:reg9.q[1]
+saiBarreira9[2] <= registrador:reg9.q[2]
+saiBarreira9[3] <= registrador:reg9.q[3]
+saiBarreira10[0] <= registrador:reg10.q[0]
+saiBarreira10[1] <= registrador:reg10.q[1]
+saiBarreira10[2] <= registrador:reg10.q[2]
+saiBarreira10[3] <= registrador:reg10.q[3]
+saiBarreira11[0] <= registrador:reg11.q[0]
+saiBarreira11[1] <= registrador:reg11.q[1]
+saiBarreira11[2] <= registrador:reg11.q[2]
+saiBarreira11[3] <= registrador:reg11.q[3]
+saiBarreira12[0] <= registrador:reg12.q[0]
+saiBarreira12[1] <= registrador:reg12.q[1]
+saiBarreira12[2] <= registrador:reg12.q[2]
+saiBarreira12[3] <= registrador:reg12.q[3]
+saiBarreira13[0] <= registrador:reg13.q[0]
+saiBarreira13[1] <= registrador:reg13.q[1]
+saiBarreira13[2] <= registrador:reg13.q[2]
+saiBarreira13[3] <= registrador:reg13.q[3]
+saiBarreira14[0] <= registrador:reg14.q[0]
+saiBarreira14[1] <= registrador:reg14.q[1]
+saiBarreira14[2] <= registrador:reg14.q[2]
+saiBarreira14[3] <= registrador:reg14.q[3]
+saiBarreira15[0] <= registrador:reg15.q[0]
+saiBarreira15[1] <= registrador:reg15.q[1]
+saiBarreira15[2] <= registrador:reg15.q[2]
+saiBarreira15[3] <= registrador:reg15.q[3]
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg0
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg1
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg2
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg3
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg4
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg5
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg6
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg7
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg8
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg9
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg10
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg11
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg12
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg13
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg14
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|barreiraTemporal:barreiraemB|registrador:reg15
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+reset => q[0]~reg0.ACLR
+reset => q[1]~reg0.ACLR
+reset => q[2]~reg0.ACLR
+reset => q[3]~reg0.ACLR
+clock => q[0]~reg0.CLK
+clock => q[1]~reg0.CLK
+clock => q[2]~reg0.CLK
+clock => q[3]~reg0.CLK
+enable => q[3]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[0]~reg0.ENA
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador16
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador16|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador16|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador16|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador16|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador17
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador17|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador17|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador17|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador17|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador18
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador18|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador18|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador18|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador18|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador19
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador19|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador19|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador19|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador19|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador20
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador20|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador20|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador20|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador20|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador21
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador21|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador21|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador21|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador21|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador22
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador22|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador22|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador22|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador22|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador23
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador23|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador23|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador23|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador23|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator16
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator16|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator16|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator16|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator16|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator17
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator17|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator17|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator17|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator17|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator18
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator18|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator18|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator18|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator18|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator19
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator19|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator19|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator19|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator19|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator20
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator20|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator20|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator20|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator20|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator21
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator21|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator21|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator21|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator21|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator22
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator22|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator22|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator22|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator22|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator23
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator23|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator23|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator23|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator23|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador24
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador24|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador24|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador24|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador24|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador25
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador25|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador25|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador25|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador25|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador26
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador26|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador26|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador26|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador26|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador27
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador27|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador27|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador27|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador27|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador28
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador28|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador28|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador28|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador28|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador29
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador29|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador29|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador29|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador29|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador30
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador30|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador30|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador30|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador30|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador31
+entrada1[0] => fullAdder:somador:0:componenteSomador.a
+entrada1[1] => fullAdder:somador:1:componenteSomador.a
+entrada1[2] => fullAdder:somador:2:componenteSomador.a
+entrada1[3] => fullAdder:somador:3:componenteSomador.a
+entrada2[0] => fullAdder:somador:0:componenteSomador.b
+entrada2[1] => fullAdder:somador:1:componenteSomador.b
+entrada2[2] => fullAdder:somador:2:componenteSomador.b
+entrada2[3] => fullAdder:somador:3:componenteSomador.b
+resultadoSoma[0] <= fullAdder:somador:0:componenteSomador.saida
+resultadoSoma[1] <= fullAdder:somador:1:componenteSomador.saida
+resultadoSoma[2] <= fullAdder:somador:2:componenteSomador.saida
+resultadoSoma[3] <= fullAdder:somador:3:componenteSomador.saida
+overflow <= fullAdder:somador:0:componenteSomador.cout
+
+
+|hadamard|somadorNbits:componenteSomador31|fullAdder:\somador:0:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador31|fullAdder:\somador:1:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador31|fullAdder:\somador:2:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|somadorNbits:componenteSomador31|fullAdder:\somador:3:componenteSomador
+a => cout.IN0
+a => cout.IN0
+a => saida.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator24
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator24|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator24|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator24|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator24|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator25
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator25|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator25|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator25|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator25|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator26
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator26|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator26|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator26|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator26|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator27
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator27|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator27|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator27|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator27|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator28
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator28|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator28|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator28|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator28|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator29
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator29|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator29|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator29|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator29|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator30
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator30|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator30|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator30|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator30|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator31
+entrada1[0] => fullSubtractor:subtrator:0:componenteSomador.a
+entrada1[1] => fullSubtractor:subtrator:1:componenteSomador.a
+entrada1[2] => fullSubtractor:subtrator:2:componenteSomador.a
+entrada1[3] => fullSubtractor:subtrator:3:componenteSomador.a
+entrada2[0] => fullSubtractor:subtrator:0:componenteSomador.b
+entrada2[1] => fullSubtractor:subtrator:1:componenteSomador.b
+entrada2[2] => fullSubtractor:subtrator:2:componenteSomador.b
+entrada2[3] => fullSubtractor:subtrator:3:componenteSomador.b
+resultadoSub[0] <= fullSubtractor:subtrator:0:componenteSomador.saida
+resultadoSub[1] <= fullSubtractor:subtrator:1:componenteSomador.saida
+resultadoSub[2] <= fullSubtractor:subtrator:2:componenteSomador.saida
+resultadoSub[3] <= fullSubtractor:subtrator:3:componenteSomador.saida
+overflow <= fullSubtractor:subtrator:3:componenteSomador.cout
+negativo <= fullSubtractor:subtrator:3:componenteSomador.saida
+
+
+|hadamard|subtratorNbits:componenteSubtrator31|fullSubtractor:\subtrator:0:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator31|fullSubtractor:\subtrator:1:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator31|fullSubtractor:\subtrator:2:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hadamard|subtratorNbits:componenteSubtrator31|fullSubtractor:\subtrator:3:componenteSomador
+a => saida.IN0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN0
+b => saida.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => saida.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

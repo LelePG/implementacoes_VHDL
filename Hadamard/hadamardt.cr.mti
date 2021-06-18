@@ -1,0 +1,68 @@
+C:/Users/tammy/Desktop/HadamardV2/hadamard.vhd {1 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/hadamard.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hadamard
+-- Compiling architecture hadamardArch of hadamard
+
+} {} {}} C:/Users/tammy/Desktop/HadamardV2/registrador.vhd {1 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/registrador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity registrador
+-- Compiling architecture registradorArch of registrador
+
+} {} {}} C:/Users/tammy/Desktop/HadamardV2/subtratorNbits.vhd {1 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/subtratorNbits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity subtratorNbits
+-- Compiling architecture subtratorNbitsArch of subtratorNbits
+
+} {} {}} C:/Users/tammy/Desktop/HadamardV2/fullAdder.vhd {1 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/fullAdder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture fullAdderArch of fullAdder
+
+} {} {}} C:/Users/tammy/Desktop/HadamardV2/barreiraTemporal.vhd {1 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/barreiraTemporal.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity barreiraTemporal
+-- Compiling architecture barreiraTemporalArch of barreiraTemporal
+
+} {} {}} C:/Users/tammy/Desktop/HadamardV2/fullSubtractor.vhd {1 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/fullSubtractor.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullSubtractor
+-- Compiling architecture fullSubtractorArch of fullSubtractor
+
+} {} {}} C:/Users/tammy/Desktop/HadamardV2/hadamardtb.vhd {2 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/hadamardtb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hadamardtb
+-- Compiling architecture hadamardArch of hadamardtb
+** Warning: [4] C:/Users/tammy/Desktop/HadamardV2/hadamardtb.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/tammy/Desktop/HadamardV2/hadamardtb.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/tammy/Desktop/HadamardV2/hadamardtb.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Users/tammy/Desktop/HadamardV2/somadorNbits.vhd {1 {vcom -work work -2002 -explicit C:/Users/tammy/Desktop/HadamardV2/somadorNbits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity somadorNbits
+-- Compiling architecture somadorNbitsArch of somadorNbits
+
+} {} {}}

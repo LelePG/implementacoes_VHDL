@@ -1,0 +1,285 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Ebarreiratemporal
+Z0 w1623345720
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\tammy\Desktop\HadamardV3
+Z4 8C:/Users/tammy/Desktop/HadamardV3/barreiraTemporal.vhd
+Z5 FC:/Users/tammy/Desktop/HadamardV3/barreiraTemporal.vhd
+l0
+L3
+Vfb_`i1`9<gY`foRYfA7R;0
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1623703490.779000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/barreiraTemporal.vhd|
+Z9 !s107 C:/Users/tammy/Desktop/HadamardV3/barreiraTemporal.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 c:^12BAid`1l]Z<nXd^UQ0
+!i10b 1
+Abarreiratemporalarch
+R1
+R2
+DEx4 work 16 barreiratemporal 0 22 fb_`i1`9<gY`foRYfA7R;0
+l25
+L16
+VD@nC]9;fP>n<;7k6E:mEI1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 FA9V9XL>?C]an9Z0g?hGC2
+!i10b 1
+Efulladder
+Z12 w1622410139
+R1
+R2
+R3
+Z13 8C:/Users/tammy/Desktop/HadamardV3/fullAdder.vhd
+Z14 FC:/Users/tammy/Desktop/HadamardV3/fullAdder.vhd
+l0
+L4
+V>CLXmHo=FohUXHLHiHk962
+R6
+32
+Z15 !s108 1623703491.342000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/fullAdder.vhd|
+Z17 !s107 C:/Users/tammy/Desktop/HadamardV3/fullAdder.vhd|
+R10
+R11
+!s100 Aj9Mh@of@fFZJ_B3<9@G]0
+!i10b 1
+Afulladderarch
+R1
+R2
+DEx4 work 9 fulladder 0 22 >CLXmHo=FohUXHLHiHk962
+l13
+L12
+V;Ib<ePLj_3U<:@:b=VD8P0
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 3fid9S;SmB8`X2h^LB=O11
+!i10b 1
+Efullsubtractor
+R12
+R1
+R2
+R3
+Z18 8C:/Users/tammy/Desktop/HadamardV3/fullSubtractor.vhd
+Z19 FC:/Users/tammy/Desktop/HadamardV3/fullSubtractor.vhd
+l0
+L3
+V=^<ILllhna[l[dO7SMKAN0
+R6
+32
+Z20 !s108 1623703491.592000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/fullSubtractor.vhd|
+Z22 !s107 C:/Users/tammy/Desktop/HadamardV3/fullSubtractor.vhd|
+R10
+R11
+!s100 gD>ofTgIG0]5eIC:?@g3H1
+!i10b 1
+Afullsubtractorarch
+R1
+R2
+DEx4 work 14 fullsubtractor 0 22 =^<ILllhna[l[dO7SMKAN0
+l13
+L12
+VGhC<YWWUz6@hnX8hLA8iH3
+R6
+32
+R20
+R21
+R22
+R10
+R11
+!s100 mznzETSYRAgWV[h[W=UP;3
+!i10b 1
+Ehadamard
+Z23 w1623703147
+R1
+R2
+R3
+Z24 8C:/Users/tammy/Desktop/HadamardV3/hadamard.vhd
+Z25 FC:/Users/tammy/Desktop/HadamardV3/hadamard.vhd
+l0
+L4
+V@:]E9MY=9H15K:SHKk9fV1
+R6
+32
+Z26 !s108 1623703491.732000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/hadamard.vhd|
+Z28 !s107 C:/Users/tammy/Desktop/HadamardV3/hadamard.vhd|
+R10
+R11
+!s100 TUlVdJ`_Wjk?CV`VP]BIf3
+!i10b 1
+Ahadamardarch
+R1
+R2
+DEx4 work 8 hadamard 0 22 @:]E9MY=9H15K:SHKk9fV1
+l47
+L14
+VM]8EKX<M@Qf_A9Nj1Ibfa2
+R6
+32
+R26
+R27
+R28
+R10
+R11
+!s100 zmTZ_XM^i7FnD0?;9ChPR3
+!i10b 1
+Ehadamardtb
+Z29 w1623638549
+R1
+R2
+R3
+Z30 8C:/Users/tammy/Desktop/HadamardV3/hadamardtb.vhd
+Z31 FC:/Users/tammy/Desktop/HadamardV3/hadamardtb.vhd
+l0
+L4
+V5zfjS^8C<1ai4R5iBWC6C0
+R6
+32
+Z32 !s108 1623703491.888000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/hadamardtb.vhd|
+Z34 !s107 C:/Users/tammy/Desktop/HadamardV3/hadamardtb.vhd|
+R10
+R11
+!s100 JhO][>f9WJl;fXKcKzmb^3
+!i10b 1
+Ahadamardarch
+R1
+R2
+DEx4 work 10 hadamardtb 0 22 5zfjS^8C<1ai4R5iBWC6C0
+l24
+L7
+V7i`<38k34ZZ@4@oI5b>_J1
+R6
+32
+R32
+R33
+R34
+R10
+R11
+!s100 5E@A>O_FW<23@eIa1[DjH0
+!i10b 1
+Eregistrador
+Z35 w1623345721
+R1
+R2
+R3
+Z36 8C:/Users/tammy/Desktop/HadamardV3/registrador.vhd
+Z37 FC:/Users/tammy/Desktop/HadamardV3/registrador.vhd
+l0
+L3
+V1gEP7lQ7QRfYaMKFgzB3A1
+R6
+32
+Z38 !s108 1623703492.076000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/registrador.vhd|
+Z40 !s107 C:/Users/tammy/Desktop/HadamardV3/registrador.vhd|
+R10
+R11
+!s100 [ogAIM02add>bk4QU>Rb;2
+!i10b 1
+Aregistradorarch
+R1
+R2
+DEx4 work 11 registrador 0 22 1gEP7lQ7QRfYaMKFgzB3A1
+l14
+L13
+Vdf3b8n=g3ASbL3LzlEaGK0
+R6
+32
+R38
+R39
+R40
+R10
+R11
+!s100 0DYB]K3]bOMWo`j:`[lf@2
+!i10b 1
+Esomadornbits
+Z41 w1623637748
+R1
+R2
+R3
+Z42 8C:/Users/tammy/Desktop/HadamardV3/somadorNbits.vhd
+Z43 FC:/Users/tammy/Desktop/HadamardV3/somadorNbits.vhd
+l0
+L3
+V_z[zXP7_ZI^@V2RJQJgFQ0
+R6
+32
+Z44 !s108 1623703492.310000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/somadorNbits.vhd|
+Z46 !s107 C:/Users/tammy/Desktop/HadamardV3/somadorNbits.vhd|
+R10
+R11
+!s100 iD>lkELXW@DEOj2gRDYzi1
+!i10b 1
+Asomadornbitsarch
+R1
+R2
+DEx4 work 12 somadornbits 0 22 _z[zXP7_ZI^@V2RJQJgFQ0
+l23
+L13
+Vb8=S<?fP@lBEj5NhkdgkH0
+!s100 LN@>bd:Ml<4Md^z]=m:8N2
+R6
+32
+R44
+R45
+R46
+R10
+R11
+!i10b 1
+Esubtratornbits
+Z47 w1623363936
+R1
+R2
+R3
+Z48 8C:/Users/tammy/Desktop/HadamardV3/subtratorNbits.vhd
+Z49 FC:/Users/tammy/Desktop/HadamardV3/subtratorNbits.vhd
+l0
+L3
+V>OV`nI^<^ahBWmRXiY84M1
+!s100 D7b1@LBBOCGzP?M0UUn0>2
+R6
+32
+!i10b 1
+Z50 !s108 1623703492.513000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/tammy/Desktop/HadamardV3/subtratorNbits.vhd|
+Z52 !s107 C:/Users/tammy/Desktop/HadamardV3/subtratorNbits.vhd|
+R10
+R11
+Asubtratornbitsarch
+R1
+R2
+Z53 DEx4 work 14 subtratornbits 0 22 >OV`nI^<^ahBWmRXiY84M1
+l23
+L12
+Z54 VG7]T^cOGzi=17KDYn_Rid0
+Z55 !s100 e7d7]j`id6:6eHY9o2dh30
+R6
+32
+!i10b 1
+R50
+R51
+R52
+R10
+R11

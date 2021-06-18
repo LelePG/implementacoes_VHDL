@@ -1,0 +1,85 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity filaRegistradores is
+	generic (TAMANHO: integer :=4);
+	port (
+	clockPrincipal, resetPrincipal, enablePrincipal: in std_logic;
+	entrada: in std_logic_vector(TAMANHO-1 downto 0);
+	saidaLista0,saidaLista1,saidaLista2,saidaLista3,saidaLista4,saidaLista5, saidaLista6, saidaLista7, saidaLista8, saidaLista9, 
+	saidaLista10, saidaLista11, saidaLista12, saidaLista13, saidaLista14, saidaLista15: out std_logic_vector(TAMANHO-1 downto 0)
+	);
+		
+END filaRegistradores;
+
+architecture filaRegistradoresArch of filaRegistradores is
+type matrizDeParciais is array (15 downto 0) of std_logic_vector(TAMANHO-1 downto 0);--Cria um tipo matriz para armazenar os elementos
+signal elementosWEntrada, elementosWSaida, elementosWProntos, elementosWProntosSaida  : matrizDeParciais; -- cria uma matriz para armazenar os elementos w do hadamard
+signal contador : integer;
+
+component registrador is
+	port (
+		d: in std_logic_vector (TAMANHO - 1 downto 0);
+		reset, clock, enable : in std_logic;
+		q: out std_logic_vector (TAMANHO - 1 downto 0)
+	);
+	end component;
+	
+	begin
+	registradorX1: registrador port map(
+		d=> entrada,
+		reset => resetPrincipal, 
+		clock => clockPrincipal, 
+		enable => enablePrincipal,
+		q=>elementosWSaida(0)
+		);
+	
+	registradores: for i in 1 to 15 generate--Cria as duas filas de registradores
+		registradorX: registrador port map(
+		d=> elementosWEntrada(i),
+		reset => resetPrincipal, 
+		clock => clockPrincipal, 
+		enable => enablePrincipal,
+		q=>elementosWSaida(i)
+		);
+		
+		registradorY: registrador port map(
+		d=> elementosWProntos(i),
+		reset => resetPrincipal, 
+		clock => clockPrincipal, 
+		enable => enablePrincipal,
+		q=>elementosWProntosSaida(i)
+		);
+	end generate registradores;
+	
+	process (clockPrincipal)
+	begin
+		if(clockPrincipal = '1' and contador <16) then
+		elementosWEntrada(contador) <= elementosWSaida(contador-1);
+		contador <= contador+1;
+		elsif (contador = 15) then
+		elementosWProntos <= elementosWEntrada;
+		elsif (resetPrincipal = '1') then
+		contador <= 0;
+		end if;
+	end process;
+	
+	saidaLista0 <= elementosWProntosSaida(0);
+	saidaLista1 <= elementosWProntosSaida(1);
+	saidaLista2 <= elementosWProntosSaida(2);
+	saidaLista3 <= elementosWProntosSaida(3);
+	saidaLista4 <= elementosWProntosSaida(4);
+	saidaLista5 <= elementosWProntosSaida(5);
+	saidaLista6 <= elementosWProntosSaida(6);
+	saidaLista7 <= elementosWProntosSaida(7);
+	saidaLista8 <= elementosWProntosSaida(8);
+	saidaLista9 <= elementosWProntosSaida(9);
+	saidaLista10 <= elementosWProntosSaida(10);
+	saidaLista11 <= elementosWProntosSaida(11);
+	saidaLista12 <= elementosWProntosSaida(12);
+	saidaLista13 <= elementosWProntosSaida(13);
+	saidaLista14 <= elementosWProntosSaida(14);
+	saidaLista15 <= elementosWProntosSaida(15);
+
+
+	
+end filaRegistradoresArch;
