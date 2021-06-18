@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity ram_R is
+port(
+	clock, writeEnable: in std_logic;
+	endereco: in integer;
+	entrada: in std_logic_vector(7 downto 0);
+	saida: out std_logic_vector(7 downto 0)
+);
+end ram_R;
+
+architecture ram_RArch of ram_R is
+type ram_T is array (254 downto 0) of std_logic_vector(7 downto 0);
+signal ram: ram_t := (others => (others => '0'));
+begin
+	process (clock)
+	begin
+	if (rising_edge (clock)) then
+		if (writeEnable = '1') then 
+			ram(endereco) <= entrada;
+		end if;
+		saida <= ram(endereco);
+	end if;
+	end process;
+end ram_RArch;
