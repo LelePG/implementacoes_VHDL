@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Letícia\Desktop\TrabalhoFinal\simulation\qsim
+vprocessador
+Z1 IA[[kRi8JB3NB1Ng]PdYPS1
+Z2 V_;I=]m^0dUNToj?V`FaN:1
+Z3 dC:\Users\Letícia\Desktop\TrabalhoFinal\simulation\qsim
+Z4 w1624235870
+Z5 8TrabalhoFinal.vo
+Z6 FTrabalhoFinal.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|TrabalhoFinal.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 _:JoF=01`WJUQE[JaMm151
+!s85 0
+Z11 !s108 1624235872.677000
+Z12 !s107 TrabalhoFinal.vo|
+!s101 -O0
+vprocessador_vlg_check_tst
+!i10b 1
+Z13 !s100 `gM4RdCk3de^[S==2[E7U1
+Z14 IG2YWJj<8UXO31z1HPoGHe0
+Z15 VKMMU9R;<`o<AS^jQ3;:em0
+R3
+Z16 w1624235868
+Z17 8TrabalhoFinal.vt
+Z18 FTrabalhoFinal.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1624235873.537000
+Z20 !s107 TrabalhoFinal.vt|
+Z21 !s90 -work|work|TrabalhoFinal.vt|
+!s101 -O0
+R9
+vprocessador_vlg_sample_tst
+!i10b 1
+Z22 !s100 d6;<Sg=Ia40??Xhz3k?R`1
+Z23 I`D=L;zjaEhTX]1<^Zd`A@0
+Z24 V>Fk8ZKL5a2DiAAEU=QaVH0
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vprocessador_vlg_vec_tst
+!i10b 1
+Z25 !s100 Hcf^]0KVfAc;1^UiS[oGd3
+Z26 IFXBBS0@C@e_oZjZKTgc[Q0
+Z27 VTHSaPDKg4Wj>2_O^anzBd2
+R3
+R16
+R17
+R18
+Z28 L0 279
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

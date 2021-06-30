@@ -1,0 +1,12 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity processador is 
+port (
+);
+end processador;
+
+architecture processadorArch of processador is
+begin
+end processadorArch;
